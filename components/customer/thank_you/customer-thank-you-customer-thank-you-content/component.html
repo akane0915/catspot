@@ -1,0 +1,59 @@
+<section id="customer-thank-you-customer-thank-you-content" class="component-thank-you order">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 catspot-thankyou">
+				{{ customer_helper.order_page("Thanks, your CatSpot litter is on its way!") }}
+			</div>
+			<h2 class="follow-us">Follow us</h2>
+			<p class="follow-us-text">For all the latest news on how we’re improving CatSpot litter, follow us!</p>
+			<div class="thank-you-social">
+				<a class="thank-you-social-facebook" href="https://facebook.com/CatSpotLitter" target="_blank">
+					<img src="{{ 'images/facebook-icon.jpg' | asset_url }}" />
+				</a>
+				<a class="thank-you-social-twitter" href="https://twitter.com/catspotlitter" target="_blank">
+					<img src="{{ 'images/twitter-icon.jpg' | asset_url }}" />
+				</a>
+				<a class="thank-you-social-instagram" href="https://www.instagram.com/catspotlitter" target="_blank">
+					<img src="{{ 'images/instagram-icon.jpg' | asset_url }}" />
+				</a>
+				<a class="thank-you-social-youtube" href="https://www.youtube.com/channel/UCn8gJk53c60WfiWezWaRZZw" target="_blank">
+					<img src="{{ 'images/youtube-icon.jpg' | asset_url }}" />
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+  
+  window.dataLayer = window.dataLayer || [];
+
+  dataLayer.push({
+    	'event': 'transaction',
+		'ecommerce': {
+            'purchase': {
+                'actionField': {
+                        'id': '{{ order.id }}',                         // Transaction ID. Required for purchases and refunds.
+                  		'customer_id': '{{ customer.id }}',
+                        'affiliation': 'Online Store',
+                        'revenue': {{ order.total }} * 0.01,                     // Total transaction value (incl. tax and shipping)
+                        'tax': {{ order.total_tax }} * 0.01,
+                        'shipping': {{ order.total_shipping }} * 0.01,
+                },
+                'products': [                            // List of productFieldObjects.
+                    {% for p in order.products %}
+                        {
+                        'id': '{{ p.instance.sku }}',
+                        'name': '{{ p.instance.name }}',
+                        'brand': 'CatSpot',
+                        'category': {% if p.instance.product.is_ecom %}'shop_product'{%else%}'subscription'{%endif%},
+                        'price': {{ p.price }} * 0.01,
+                        'quantity': {{ p.quantity }}
+                        },
+                    {% endfor %}
+                ]
+            }
+       }
+  });
+
+</script>

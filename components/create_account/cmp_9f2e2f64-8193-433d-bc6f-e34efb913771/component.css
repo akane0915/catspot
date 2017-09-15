@@ -1,0 +1,202 @@
+#create_account_header {
+	background: -webkit-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Fx 3.6 to 15 */
+	background: radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* Standard syntax (must be last) */
+}
+
+#create_account_header .header-center{
+	text-align: center;
+}
+
+#create_account_header p {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#create_account_header h2 {
+	color: #fff;
+	font-size: 3em;
+}
+
+#createAccount h1{
+	margin: 0;
+	padding: .5em 0 0 0;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#createAccount .col-xs-6{
+	flex: 100%;
+	padding: 1.5em;
+}
+
+.centerText {
+	text-align: center;
+	font-size: 2em;
+	width: 100%;
+}
+
+.freeShip {
+	font-weight: bold;
+}
+
+.package-option {
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0px #777;
+	padding-top: 3em;
+}
+
+.package-option a:hover {
+	text-decoration: none;
+}
+
+.component-rich-text-with-button__content-row {
+	position: relative;
+	padding: 0 20em;
+}
+
+#createAccount .middle-div-container {
+	text-align: center;
+}
+
+#createAccount .middle-div {
+	position: relative;
+	top: 40%;
+}
+
+#createAccount .or-circle-icon {
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+#createAccount .or-circle-icon p {
+	font-size: 2em;
+	margin-bottom: 0;
+	text-align: center;
+	background: rgb(74, 74, 74);
+	display: block;
+	height: 65px;
+	width: 65px;
+	line-height: 65px;
+	border-radius: 50%;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+p#always-free-text {
+	color: rgb(74, 74, 74);
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+#createAccount .package-icon {
+	width: 28%;
+	height: auto;
+	margin-bottom: 1.5em;
+}
+
+.purchase-option__text {
+	padding: 0;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+.purchase-option__text__title {
+	margin-bottom: 0.2em;
+	color: rgb(74, 74, 74);
+}
+
+.purchase-option__text__desc {
+	font-size: 2em;
+	margin: .5em 0 0 0;
+	color: rgb(74, 74, 74);
+}
+
+.purchase-option__text__desc span {
+	font-size: .7em;
+}
+
+.purchase-option__list_container {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 2em;
+}
+
+.purchase-option__list {
+	width: 55%;
+	margin: 0 auto;
+}
+
+.purchase-option__list ul {
+	list-style: initial;
+}
+
+.purchase-option__list li {
+	color: rgb(74, 74, 74);
+	font-size: 1em;
+}
+
+.select-package-container {
+	background-color: rgb(252, 175, 23);
+	margin: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.select-package-text {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: .5em 0;
+}
+
+@media only screen and (max-width: 767px) {
+	section#createAccount.component-rich-text-with-button {
+		padding-top: 0 !important;
+	}
+
+	#createAccount .middle-div-container {
+		margin: 3em 0;
+	}
+
+	.component-rich-text-with-button__content-row {
+		display: block;
+		clear: both;
+	}
+
+	.component-rich-text-with-button__content-row {
+		padding: 2em;
+	}
+}
+
+@media only screen and (max-width: 1605px) {
+	.purchase-option__list {
+	    width: 70%;
+	    margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.component-rich-text-with-button__content-row {
+	    position: relative;
+	    padding: 0 15em;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	.component-rich-text-with-button__content-row {
+	    position: relative;
+	    padding: 0 8em;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.component-rich-text-with-button__content-row {
+	    position: relative;
+	    padding: 0 2em;
+	}
+}

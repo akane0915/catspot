@@ -1,0 +1,165 @@
+#index-why-cat-spot {
+	color: rgb(100, 61, 33);
+}
+
+.why_cat_spot_header {
+ 	color: rgb(100, 61, 33);
+}
+
+.why_cat_spot_item_header {
+	font-weight: 700;
+	color: rgb(86, 86, 86);
+	font-size: 1.3em;
+	margin-bottom: 0;
+}
+
+.why_cat_spot_subheader{
+	font-size: 1.5em;
+}
+
+.why_cat_spot_item_text {
+	color: rgb(86, 86, 86);
+	font-size: 1.1em;
+  	padding: 0 4% 0 4%;
+}
+
+.why_cat_spot_item_image {
+	width: 25%;
+}
+
+.why_cat_spot_row_1 {
+	width: 90%;
+}
+
+.why_cat_spot_row_2 {
+	width: 90%;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 543px) {
+	#index-why-cat-spot {
+		margin-top: 45%;
+	}
+
+	.why_cat_spot_litter_image {
+		display: none;
+	}
+	.why_cat_spot_item {
+		margin: 5% 0;
+	}
+  	.why_cat_spot_row_1 {
+		margin: 0;
+      	width: 100%;
+	}
+
+	.why_cat_spot_row_2 {
+		margin: 0;
+      	width: 100%;
+	}
+
+
+	.why_cat_spot_item_header {
+		font-size: 1.5em;
+	}
+
+	.why_cat_spot_item_text {
+		font-size: 1.4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+/*Tablet Portrait*/
+@media only screen and (min-width: 544px) and (max-width: 768px) {
+	#index-why-cat-spot {
+		margin-top: 22%;
+	}
+
+	.why_cat_spot_row_1 {
+		display: block;
+      	margin: 0;
+	}
+
+	.why_cat_spot_row_2 {
+		display: block;
+     	margin: 0;
+	}
+
+	.why_cat_spot_item {
+		margin: 8% 0;
+	}
+
+	.why_cat_spot_litter_image {
+		display: none;
+	}
+}
+
+/*Tablet Landscape*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	#index-why-cat-spot {
+		margin-top: 8%;
+	}
+
+	.why_cat_spot_content_row {
+		margin-top: 4%;
+	}
+
+	.why_cat_spot_litter_image{
+		width: 114%;
+		height: 90%;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  	.why_cat_spot_litter_image{
+		display: none;
+	}
+}
+  
+@media only screen and (min-width: 1025px) {
+	#index-why-cat-spot {
+		margin-top: 13%;
+	}
+
+	.why_cat_spot_litter_image {
+		width: 126%;
+		height: 92%;
+	}
+
+	.icons_on_right_column {
+		margin-top: 3em;
+	}
+}
+
+@media only screen and (min-width: 1144px) and (max-width: 1440px) {
+  .why_cat_spot_item_text {
+  	padding: 0 30% 0 30%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1250px){
+	.why_cat_spot_item_header {
+		font-size: 1.5em;
+	}
+
+	.why_cat_spot_item_text {
+		font-size: 1.3em;
+	}
+	.why_cat_spot_row_1 {
+		margin-bottom: 1em;
+      	margin-left: 5%;
+	}
+	.why_cat_spot_row_2 {
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+  .why_cat_spot_row_1 {
+      	margin-left: 5%;
+	}
+	.why_cat_spot_row_2 {
+		margin-top: 4em;
+      	margin-left: 5%;
+	}
+}

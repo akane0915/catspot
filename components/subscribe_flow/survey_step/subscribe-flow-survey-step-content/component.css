@@ -1,0 +1,19 @@
+#subscribe-flow-survey-step-content {
+	background-color: {{ settings["subscribe-flow-survey-step-content/background_color"] }};
+}
+
+#subscribe-flow-survey-step-content h3 {
+	color: {{ settings['subscribe-flow-survey-step-content/heading/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-content/heading/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-content/heading/font_size'] }};
+}
+
+#subscribe-flow-survey-step-content p {
+	color: {{ settings['subscribe-flow-survey-step-content/body/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-content/body/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-content/body/font_size'] }};
+}
+
+#subscribe-flow-survey-step-content  {
+	padding-top: 0;
+}

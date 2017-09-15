@@ -1,0 +1,9 @@
+{
+    "settings": [
+        {
+            "type": "richtext", 
+            "id": "shop-product-title/header_content"
+        }
+    ], 
+    "label": "Title"
+}

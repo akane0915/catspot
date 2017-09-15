@@ -1,0 +1,37 @@
+
+<section id="checkout-checkout" class="component-checkout">
+	<div class="container-fluid">
+		{{ checkout.page() }}
+	</div>
+</section>
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    var event = { 'event': 'checkoutOption' };
+
+	event.ecommerce = {
+    	'checkout': {
+            'actionField': {'step': 3, 'option': 'Checkout' },
+            'products': []
+        }
+    }
+    
+    {%if cart.ship_price > 0 %}
+    {%endif%}
+    
+    {% for p in cart.products %}
+    
+    var instance = {
+        'name': '{{ p.instance.name }}',
+    	'id': '{{ p.instance.sku }}',
+        'price': {{ p.price }} * 0.01,
+      	'brand': 'CatSpot',
+        'category': {% if p.instance.product.is_ecom %}'shop_product'{%else%}'subscription'{%endif%},
+        'quantity': {{ p.quantity }}
+    };
+
+    event.ecommerce.checkout.products.push(instance);
+    {% endfor %}
+    
+    window.dataLayer.push(event);
+</script>

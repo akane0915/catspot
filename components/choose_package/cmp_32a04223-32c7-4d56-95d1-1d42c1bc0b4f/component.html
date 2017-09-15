@@ -1,0 +1,195 @@
+<section id="subscribe-product-list" class="component-subscription-product-list">
+  <div id="choosePackage" class="container-fluid">
+    <h1>Choose Your Package</h1>
+    <div class="row sf-grid catspot-product-list">
+
+
+      {% set all_products = [] %}
+      {% for product in store.visible_subscription_products %}
+      {% do all_products.append({'product': product, 'price': product.calc_min_price()}) %}
+      {% endfor %}
+      {% set product_list = all_products | sort(attribute='price', reverse=False) %}
+
+      {% for p in product_list %}
+      {% set product=p.product %}
+      {% if loop.index == 1 %}
+      <div class="col-md-6 col-xl-3 col-xs-12 sf-grid__container">
+        <div class="sf-item catspot-product">
+          <span class="catspot-product__image">
+            {#
+            Creates an image tag if one is uploaded to the product model. Otherwise it creates an image tag from the default image (images/product_placeholder.jpg)
+            #}
+            {{ product | object_img_tag(default_img_path=settings['product_placeholder_image'], css_class="") }}
+          </span>
+
+          <div class="catspot-product__identifiers">
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+
+          </div>
+
+          <!-- Product Name -->
+          <h2 class="catspot-product__name">
+            Single Cat Family
+          </h2>
+          <dl class="catspot-product__features">
+            <dt class="catspot-product__feature-title">Bags per month</dt>
+            <dd class="catspot-product__feature-definition catspot-product__number-bags">{{ loop.index }}</dd>
+            <dt class="catspot-product__feature-title">Monthly total</dt>
+            <dd class="catspot-product__feature-definition catspot-product__monthly-total">
+              {#
+              Creates either the actual price of the product or a price range (in the case that there are terms to be chosen)
+              #}
+              {{ product | get_price_or_price_range }}
+            </dd>
+          </dl>
+          <p class="catspot-product__description">
+            {#
+            Renders the product description if one exists, otherwise uses the default string
+            #}
+            {{ product.description | default("", True) }}
+          </p>
+          <footer class="catspot-product__footer">
+            {#
+            Creates a link which advances the subscribe flow to the next step, choosing the current product
+            #}
+            <a type="button" href="{{ product | product_subscribe_url(gift=gift) }}" class="btn btn-large btn-primary catspot-product__buy">
+              Select this Package
+            </a>
+
+          </footer>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+
+
+      <div class="col-md-6 col-xl-3 col-xs-12 sf-grid__container">
+        <div class="sf-item catspot-product">
+          <span class="catspot-product__image">
+            <img src="//s3.amazonaws.com/cratejoy_vendor_images/37495642e456427cb2d401ebde32ecfc.png">
+          </span>
+          <div class="catspot-product__identifiers">
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+          </div>
+          <!-- Product Name -->
+          <h2 class="catspot-product__name">
+            Two Cat Family
+          </h2>
+          <dl class="catspot-product__features">
+            <dt class="catspot-product__feature-title">Bags per month</dt>
+            <dd class="catspot-product__feature-definition catspot-product__number-bags">2</dd>
+            <dt class="catspot-product__feature-title">Monthly total</dt>
+            <dd class="catspot-product__feature-definition catspot-product__monthly-total">
+              <p data-barley="product.512372805.price" data-barley-editor="text">$30.00</p>
+            </dd>
+          </dl>
+          <p class="catspot-product__description">
+            For those with a couple kitties or litter boxes in the home.
+          </p>
+          <footer class="catspot-product__footer">
+            <a type="button" class="btn btn-large btn-primary catspot-product__buy">
+              Select this Package
+            </a>
+          </footer>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-xl-3 col-xs-12 sf-grid__container">
+        <div class="sf-item catspot-product">
+          <span class="catspot-product__image">
+            <img src="//s3.amazonaws.com/cratejoy_vendor_images/0be8bff8f6f44462b4edc615f29d09d9.png">
+          </span>
+          <div class="catspot-product__identifiers">
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+          </div>
+          <!-- Product Name -->
+          <h2 class="catspot-product__name">
+            Multi-Cat Family
+          </h2>
+          <dl class="catspot-product__features">
+            <dt class="catspot-product__feature-title">Bags per month</dt>
+            <dd class="catspot-product__feature-definition catspot-product__number-bags">3</dd>
+            <dt class="catspot-product__feature-title">Monthly total</dt>
+            <dd class="catspot-product__feature-definition catspot-product__monthly-total">
+              <p data-barley="product.502035917.price" data-barley-editor="text">$45.00</p>
+            </dd>
+          </dl>
+          <p class="catspot-product__description">
+            Great for several cats or the frequent litter box cleaner.
+          </p>
+          <footer class="catspot-product__footer">
+            <a type="button" class="btn btn-large btn-primary catspot-product__buy">
+              Select this Package
+            </a>
+          </footer>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-xl-3 col-xs-12 sf-grid__container">
+        <div class="sf-item catspot-product">
+          <span class="catspot-product__image">
+            <img src="//s3.amazonaws.com/cratejoy_vendor_images/5a1133f08d3c402f9e07345f4ffa5fb2.png">
+          </span>
+          <div class="catspot-product__identifiers">
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--cat"></span>
+            <span class="catspot-product__identifier catspot-product__identifier--more"></span>
+          </div>
+          <!-- Product Name -->
+          <h2 class="catspot-product__name">
+            Big Cat Family
+          </h2>
+          <dl class="catspot-product__features">
+            <dt class="catspot-product__feature-title">Bags per month</dt>
+            <span class="catspot-product__incrementer catspot-product__incrementer--more"></span>
+            <dd class="catspot-product__feature-definition catspot-product__number-bags">4</dd>
+            <span class="catspot-product__incrementer catspot-product__incrementer--less inactive"></span>
+            <dt class="catspot-product__feature-title">Monthly total</dt>
+            <dd class="catspot-product__feature-definition catspot-product__monthly-total">
+              <p data-barley="product.502048941.price" data-barley-editor="text">$60.00</p>
+            </dd>
+          </dl>
+          <p class="catspot-product__description">
+            Excellent for the household with large kitty litter needs.
+          </p>
+          <footer class="catspot-product__footer">
+            <a type="button" class="btn btn-large btn-primary catspot-product__buy">
+              Select this Package
+            </a>
+          </footer>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <div id="testimonial" class="container-fluid">
+    Our cat likes it, no odor, and easy to clean up. We will definitely continue using it.
+    <span>- Camie and Brooklyn Jones, Customers</span>
+  </div>
+</section>
+
+
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  var event = { 'event': 'checkoutOption' };
+
+  event.ecommerce = {
+    'checkout': {
+      'actionField': {'step': 2, 'option': 'Choose Package' },
+      'products': []
+    }
+  }
+
+  window.dataLayer.push(event);
+</script>

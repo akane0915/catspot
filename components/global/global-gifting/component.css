@@ -1,0 +1,56 @@
+#global-gifting {
+	background-color: {{ settings['global-gifting/background_color'] }};
+}
+
+#global-gifting h1 {
+	color: {{ settings['global-gifting/heading_1/color'] }};
+	font-family: {{ settings['global-gifting/heading_1/font_face'] }};
+	font-size: {{ settings['global-gifting/heading_1/font_size'] }};
+}
+
+#global-gifting h2 {
+	color: {{ settings['global-gifting/heading_2/color'] }};
+	font-family: {{ settings['global-gifting/heading_2/font_face'] }};
+	font-size: {{ settings['global-gifting/heading_2/font_size'] }};
+}
+
+#global-gifting h3 {
+	color: {{ settings['global-gifting/heading_3/color'] }};
+	font-family: {{ settings['global-gifting/heading_3/font_face'] }};
+	font-size: {{ settings['global-gifting/heading_3/font_size'] }};
+}
+
+#global-gifting p {
+	color: {{ settings['global-gifting/body/color'] }};
+	font-family: {{ settings['global-gifting/body/font_face'] }};
+	font-size: {{ settings['global-gifting/body/font_size'] }};
+}
+
+
+#global-gifting .btn {
+	background-color: {{ settings['global-gifting/button/color'] }};
+	color: {{ settings['global-gifting/button/text_color'] }};
+	font-family: {{ settings['global-gifting/button/font_face'] }};
+	font-size: {{ settings['global-gifting/button/font_size'] }};
+}
+
+#global-gifting .btn:hover {
+	background-color: {{ settings['global-gifting/button/hover_color'] }};
+	color: {{ settings['global-gifting/button/hover_text_color'] }};
+}
+
+#global-gifting .component-rich-text-with-button__content-row,
+#global-gifting .component-rich-text-with-button__button-row {
+	padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+	#global-gifting .component-rich-text-with-button__content-row,
+	#global-gifting .component-rich-text-with-button__button-row {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+#global-gifting  {
+	padding-top: 0;
+}

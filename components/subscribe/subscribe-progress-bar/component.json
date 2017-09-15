@@ -1,0 +1,13 @@
+{
+    "source_listing_id": 441383137, 
+    "name": "Progress Bar", 
+    "whitelist": [
+        "subscribe_flow/product_step", 
+        "subscribe_flow/survey_step", 
+        "subscribe_flow/terms_step", 
+        "subscribe_flow/variant_step"
+    ], 
+    "source": "progress-bar_v1", 
+    "version": "1", 
+    "description": "Subscription Progress Bar"
+}

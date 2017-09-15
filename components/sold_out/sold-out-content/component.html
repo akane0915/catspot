@@ -1,0 +1,17 @@
+<section id="sold-out-content" class="component-rich-text-with-button">
+	<div class="container-fluid">
+
+		<div class="component-rich-text-with-button__content-row row">
+			<div class="col-xs-12 text-center">
+				{{ settings["sold-out-content/content"] }}
+			</div>
+		</div>
+
+		<div class="component-rich-text-with-button__button-row row">
+			<div class="col-xs-12 text-center">
+				<a type="button" class="btn btn-large btn-primary" href="{{ settings['sold-out-content/button_url'] | default('#') }}">{{ settings["sold-out-content/button_text"] }}</a>
+			</div>
+		</div>
+		
+	</div>
+</section>

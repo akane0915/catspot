@@ -1,0 +1,89 @@
+{% include "components/form_feedback.html" %}
+
+<section id="customer-account-customer-account-content" class="container-fluid">
+	<section class="account-header">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h2 class="bannerBar">My Account</h2>
+			</div>
+		</div>
+	</section>
+
+	<section class="my-account">
+		<div class="row content">
+			{{ components_helpers.blocks_for('customer/account', 'account_top') }}
+			<div class="col-lg-4 col-xs-12 leftRail">
+				<div class="panel panel-cratejoy" id="subscriptionDisplay">
+					<div class="panel-heading">
+						<h3 class="panel-title">Subscription Overview</h3>
+					</div>
+					<table class="table subscription-info">
+						<tbody class="account-view-subscriptions">
+							<tr class="">
+								<td class="col-lg-4 info-label">Active Subscriptions</td>
+								<td class="col-lg-8 info-value" id="activeSubscriptions">0</td>
+							</tr>
+							<tr class="">
+								<td class="col-lg-4 info-label">Monthly Price</td>
+								<td class="col-lg-8 info-value" id="activePrice">$0.00</td>
+							</tr>
+							<tr class="">
+								<td class="col-lg-4 info-label">Paused Subscriptions</td>
+								<td class="col-lg-8 info-value" id="cancelledSubscriptions">0</td>
+							</tr>
+							<tr class="edit-button-row no-border centered">
+								<td colspan="2">
+									<a href="http://catspot.cratejoy.com/adjust_subscription" class="btn btn-med btn-primary cj-edit-sub" id="editSubsBtn">Change My Subscription</a>
+								</td>
+							</tr>
+                          <tr class="centered">
+                            <td colspan="2" class="subscriptionOr">
+                              OR
+                            </td>
+                          </tr>
+                          	<tr class="edit-button-row no-border centered">
+                              <td colspan="2">
+                            	<a class="btn btn-med btn-primary cj-edit-sub one-bag-cta" href="/shop/product/507928554">
+                                  Get extra bags <strong>now</strong>
+								</a>
+                              </td>
+                          	</tr>
+						</tbody>
+					</table>
+				</div>
+				<a href="#" class="showMore">See more details</a>
+				{#
+				Cratejoy renders the HTML that lists the customer's subscriptions.
+				You can change the way it looks by editing the css, there are examples in css/style.css.
+				#}
+				{{ customer_helper.show_subscription_info(vertical=True, btn_class="btn-med btn-primary") }}
+				{{ components_helpers.blocks_for('customer/account', 'account_left')}}
+			</div>
+			<div class="col-lg-8 col-xs-12">
+				{#
+				Cratejoy renders the HTML for editing account, shipping and payment information.
+				You can change the way it looks by editing the css, there are examples in css/style.css.
+				#}
+
+				{{ components_helpers.blocks_for('customer/account', 'account_header') }}
+				{{ customer_helper.show_basic_account_info(btn_class="btn-large btn-primary") }}
+				{{ customer_helper.show_shipping_address_info(btn_class="btn-large btn-primary") }}
+				<div class="panel panel-cratejoy hidden">
+					<div class="panel-heading">
+						<h3 class="panel-title">Gift Cards</h3>
+					</div>
+					<div class="panel-footer ">
+						<div class="row">
+							<div class="col-lg-12 col-xs-12">
+								{{ customer_helper.show_gift_card_info(btn_class="btn-primary") }}
+							</div>
+						</div>
+					</div>
+				</div>
+				{{ customer_helper.show_payment_info(btn_class="btn-large btn-primary") }}
+				{{ components_helpers.blocks_for('customer/account', 'account_right')}}
+			</div>
+			{{ components_helpers.blocks_for('customer/account', 'account_bottom') }}
+		</div>
+	</section>
+</section>

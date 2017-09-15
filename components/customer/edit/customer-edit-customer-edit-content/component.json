@@ -1,0 +1,10 @@
+{
+    "source_listing_id": 441383137, 
+    "name": "Customer Edit Content", 
+    "whitelist": [
+        "customer/edit"
+    ], 
+    "source": "customer-edit_v1", 
+    "version": "1", 
+    "description": "Customer Edit Page"
+}

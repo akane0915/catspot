@@ -1,0 +1,141 @@
+
+.footer-nav-links li {
+  padding: 0.5em;
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-nav-links a, .btn-link {
+  	margin-top: 3em;
+    color: white;
+  	font-weight: 600;
+}
+  
+
+.footer__bg-top {
+	position: absolute;
+	top: -36px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+.footer__coconuts {
+	position: absolute;
+	top: -90px;
+	left: 50%;
+	width: 150px;
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+#global-footer.footer {
+	color: #fff;
+	font-family: Dosis;
+	padding: 25px 0 25px 0;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+
+#global-footer .footer-subscribe {
+	padding: 15px 0;
+}
+
+	#global-footer .footer-subscribe .btn {
+		border: 1px solid #643d21;
+	}
+
+#global-footer .footer-social, .footer-copyright {
+	padding: 9px 0;
+}
+
+	#global-footer .footer-social a {
+		display: inline-block;
+		width: 20%;
+	}
+
+#global-footer .footer-social svg path {
+	fill: {{ settings['global-footer/social_icons_color'] }};
+}
+
+#global-footer .footer-social a:hover svg path,
+#global-footer .footer-social a:focus svg path,
+#global-footer .footer-social a:active svg path {
+	fill: {{ settings['global-footer/social_icons_hover_color'] }};
+}
+
+
+
+	.footer-subscribe__nav li {
+		display: inline-block;
+		margin-right: .5em;
+		padding-right: .5em;
+		border-right: 1px solid #643d21;
+	}
+
+		.footer-subscribe__nav li:last-child {
+			border: 0;
+		}
+
+	.footer-subscribe__nav li a,
+	.footer-subscribe__nav li a:link,
+	.footer-subscribe__nav li a:visited,
+	.footer-contact a,
+	.footer-contact a:link,
+	.footer-contact a:visited {
+		color: #643d21;
+	}
+.footer__cta {
+	font-size: 1.5em;
+	padding: 0 5%;
+}
+.footer__cta__lead-in{
+	line-height: 1.1;
+	font-size: 1.5em;
+}
+
+@media (min-width: 320px) and (max-width: 767px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  	.footer-nav-links li {
+    	font-size: 16px;
+       	padding: 0.3em;
+  	}
+  	.footer-nav-links {
+   		padding: 0 2.5em;
+	}
+  	#global-footer .footer-social {
+      	padding: 0;
+  	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#global-footer.footer {
+		padding: 15px 0;
+
+		-webkit-align-items: flex-start;
+		-moz-align-items: flex-start;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+   #global-footer.footer .row{
+     padding: 0 2%;
+   }
+  .footer-nav-links {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .footer-nav-links a, .btn-link {
+    right: 30px;
+    font-size: 15px;
+   }
+
+
+  
+}

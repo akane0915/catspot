@@ -1,0 +1,34 @@
+#howitworks-how-it-works {
+	background-color: {{ settings['howitworks-how-it-works/background_color'] }};
+}
+
+#howitworks-how-it-works h1 {
+	color: {{ settings['howitworks-how-it-works/heading_1/color'] }};
+	font-family: {{ settings['howitworks-how-it-works/heading_1/font_face'] }};
+	font-size: {{ settings['howitworks-how-it-works/heading_1/font_size'] }};
+}
+
+#howitworks-how-it-works h2 {
+	color: {{ settings['howitworks-how-it-works/heading_2/color'] }};
+	font-family: {{ settings['howitworks-how-it-works/heading_2/font_face'] }};
+	font-size: {{ settings['howitworks-how-it-works/heading_2/font_size'] }};
+}
+
+#howitworks-how-it-works h3 {
+	color: {{ settings['howitworks-how-it-works/heading_3/color'] }};
+	font-family: {{ settings['howitworks-how-it-works/heading_3/font_face'] }};
+	font-size: {{ settings['howitworks-how-it-works/heading_3/font_size'] }};
+}
+
+#howitworks-how-it-works p {
+	color: {{ settings['howitworks-how-it-works/body/color'] }};
+	font-family: {{ settings['howitworks-how-it-works/body/font_face'] }};
+	font-size: {{ settings['howitworks-how-it-works/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#howitworks-how-it-works .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}

@@ -1,0 +1,190 @@
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c {
+	background-color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/background_color'] }};
+	background: -webkit-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* Standard syntax (must be last) */
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c h1 {
+	color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_1/color'] }};
+	font-family: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_1/font_face'] }};
+	font-size: 3em;
+  	margin-bottom: 10px;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c h2 {
+	color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_2/color'] }};
+	font-family: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_2/font_face'] }};
+	font-size: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_2/font_size'] }};
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c h3 {
+	color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_3/color'] }};
+	font-family: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_3/font_face'] }};
+	font-size: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/heading_3/font_size'] }};
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .content {
+  	padding: 2em 4% 2em 4%;
+  	max-width: 100%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .pricing-col p {
+	color: rgb(157,157,157);
+  	font-size: 1.5em;
+  	margin-bottom: 0;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c h4 {
+  font-size: 2.5em;
+  color: rgb(100, 61, 33);
+  margin-bottom: 5%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c h5 {
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .pricing-subheader {
+  	color: white;
+  	font-size: 1.5em;
+  	font-weight: 400;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .pricing-col {
+	background-color: white;
+  	border-radius: 5%;
+  	padding-top: 2%;
+  	padding-bottom: 2%;
+    display: block-inline;
+    margin-left: auto;
+ 	margin-right: auto;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c #subscription-col {
+	margin-right: 1.25%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c #one-time-col {
+	margin-left: 1.25%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .column-content {
+  padding-bottom: 5%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .bag-img {
+  width: auto;
+  height: 200px;
+  padding: 5%;
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c .best-value-icon {
+	z-index: 99;
+    position: absolute;
+    top: -7%;
+    left: -18%;
+  	height: 150px;
+  	transform: rotate(-20deg);
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c #one-time-col .column-button {
+ 	position: absolute;
+    bottom: 0.7%;
+    left: 0;
+  	padding: 3%;
+}
+
+
+@media (min-width: 320px) and (max-width: 764px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .text-center {
+      	font-size: smaller;
+  	}
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .col-xs-12 {
+    	margin-top: 10%;
+  	}
+ 	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .best-value-icon {
+      z-index: 99;
+    	position: absolute;
+    	top: -8%;
+    	left: -10%;
+    	height: 25%;
+    	transform: rotate(-20deg);
+    }
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .bag-img {
+    	width: 60%;
+      	height: auto;
+      	padding-bottom: 5%;
+  	}
+    #cmp_a797ad06-d04e-49f3-a656-065c536a355c #one-time-col .column-content {
+          padding-bottom: 45%;
+    }
+    #cmp_a797ad06-d04e-49f3-a656-065c536a355c #one-time-col .column-button {
+          position: absolute;
+          bottom: -3.3%;
+          left: 0;
+          padding: 7%;
+
+    }
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .column-button {
+            font-size: 1.5em;
+  	}
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .content {
+  		max-width: 100%;
+	}
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width: 768px) and (max-width: 1192px) {
+	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .content {
+      	padding: 2em 4% 2em 4%;
+  		max-width: 100%;
+  	}
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c img {
+    	width: 75%;
+      	height: auto;
+      	margin-bottom: 5%;
+  	}
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .best-value-icon {
+        z-index: 99;
+        position: absolute;
+        top: -5%;
+    	left: -15%;
+    	height: 25%;
+    	width: auto;
+ 	}
+ 	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .btn-primary {
+ 		font-size: 1.5em; 
+	}
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .btn-primary {
+ 		font-size: 1.5em; 
+	}
+  	#cmp_a797ad06-d04e-49f3-a656-065c536a355c .content {
+      	padding: 2em 4% 2em 4%;
+  		max-width: 100%;
+  	}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c ol {
+	list-style: decimal;
+	list-style-position: inside;
+	color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/color'] }};
+	font-family: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/font_face'] }};
+	font-size: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/font_size'] }};
+}
+
+#cmp_a797ad06-d04e-49f3-a656-065c536a355c ul {
+	list-style: disc;
+	list-style-position: inside;
+	color: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/color'] }};
+	font-family: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/font_face'] }};
+	font-size: {{ settings['cmp_a797ad06-d04e-49f3-a656-065c536a355c/body/font_size'] }};
+}

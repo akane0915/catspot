@@ -1,0 +1,79 @@
+{
+    "settings": [
+        {
+            "type": "richtext", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/content"
+        }, 
+        {
+            "inherits": "page_background_color", 
+            "type": "color", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_1/font_face", 
+            "label": "Heading 1"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_1/font_size"
+        }, 
+        {
+            "inherits": "page_heading/color", 
+            "type": "color", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_1/color"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_2/font_face", 
+            "label": "Heading 2"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_2/font_size"
+        }, 
+        {
+            "inherits": "page_secondary_heading/color", 
+            "type": "color", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_2/color"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_3/font_face", 
+            "label": "Heading 3"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_3/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/heading_3/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a/body/color"
+        }
+    ], 
+    "label": "Title"
+}

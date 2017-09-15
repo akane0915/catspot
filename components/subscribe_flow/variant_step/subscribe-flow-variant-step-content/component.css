@@ -1,0 +1,22 @@
+#subscribe-flow-variant-step-content {
+	background-color: {{ settings["subscribe-flow-variant-step-content/background_color"] }};
+}
+
+#subscribe-flow-variant-step-content h3 {
+	color: {{ settings['subscribe-flow-variant-step-content/variant/color'] }};
+	font-family: {{ settings['subscribe-flow-variant-step-content/variant/font_face'] }};
+	font-size: {{ settings['subscribe-flow-variant-step-content/variant/font_size'] }};
+}
+
+#subscribe-flow-variant-step-content p {
+	color: {{ settings['subscribe-flow-variant-step-content/body/color'] }};
+	font-family: {{ settings['subscribe-flow-variant-step-content/body/font_face'] }};
+	font-size: {{ settings['subscribe-flow-variant-step-content/body/font_size'] }};
+}
+
+#subscribe-flow-variant-step-content .sf-item {
+	background-color: {{ settings["subscribe-flow-variant-step-content/tile_background_color"] }};
+}
+#subscribe-flow-variant-step-content  {
+	padding-top: 0;
+}

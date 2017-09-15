@@ -1,0 +1,82 @@
+<div id="small-nav-wrapper">
+  <div id="navigation">
+    <a class="nav-close-button" href="#">x</a>
+    <ul>
+      <li><a href="https://catspotlitter.com/#how-it-works" title="How it Works">How it Works</a></li>
+      <li><a href="https://catspotlitter.com/#testimonial-section" title="Customer Reviews and Testimonials">Testimonials</a></li>
+      <li><a href="https://catspotlitter.com/#why-cat-spot-header" title="Benefits">Benefits</a></li>
+    </ul>
+  </div>
+  <section id="global-header" class="component-nav">
+    <div class="container-fluid">
+      <div class="navbar row">
+        {% set cart = active_cart() %}
+        <a href="/" class="navbar-branding">
+          {% if settings["global-header/logo_image"] %}
+          <img src="{{ '/images/GreenLogo.png' | asset_url }}"/>
+          {% else %}
+          <span class="store-name">{{ store.name }}</span>
+          {% endif %}
+        </a>
+
+        <div id="navbar-menu-wrapper">
+          <div id="navbar-menu" class="navbar-toggleable-sm collapse">
+            <ul class="navbar-nav">
+              {% for item in navigation_lists().header %}
+              {% if item.children %}
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">{{ item.title | safe }}</a>
+                <ul class="dropdown-menu">
+                  {% for subitem in item.children %}
+                  <li class="dropdown-links"><a href="{{ subitem.url }}" class="nav-link">{{ subitem.title | safe }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% else %}
+              <li><a href="{{ item.url }}" class="nav-link">{{ item.title | safe }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+          </div>
+          <a href="#" class="navbar-toggler"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="global-header-wrapper" class="container">
+ <div id="navigation-big" class="row">
+   	<div class="col-md-3 sf-grid-padding">
+        <a href="/" class="navbar-branding">
+          {% if settings["global-header/logo_image"] %}
+          <img src="{{ '/images/GreenLogo.png' | asset_url }}"/>
+          {% else %}
+          <span class="store-name">{{ store.name }}</span>
+          {% endif %}
+        </a>
+  	 </div>
+   <div class="col-md-9 sf-grid__container">
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="https://catspotlitter.com/#how-it-works" title="How it Works">How it Works</a></li>
+      <li><a href="https://catspotlitter.com/#testimonial-section" title="Customer Reviews and Testimonials">Testimonials</a></li>
+      <li><a href="https://catspotlitter.com/#why-cat-spot-header" title="Benefits">Benefits</a></li>
+		{% for item in navigation_lists().header %}
+              {% if item.children %}
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ item.title | safe }}</a>
+                <ul class="dropdown-menu">
+                  {% for subitem in item.children %}
+                  <li class="dropdown-links"><a href="{{ subitem.url }}">{{ subitem.title | safe }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% else %}
+              <li><a href="{{ item.url }}">{{ item.title | safe }}</a></li>
+                {% endif %}
+                {% endfor %}
+      <li><a href="/create_account"><button type="button" name="button" id="header-buy-button" class="btn">Buy Now</button></a>
+     </ul> 
+   </div>
+ </div>
+</div>

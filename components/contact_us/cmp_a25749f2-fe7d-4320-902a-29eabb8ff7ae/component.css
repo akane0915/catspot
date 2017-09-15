@@ -1,0 +1,29 @@
+/*#cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae {
+	background-color: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/background_color'] }};
+}
+
+#cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae h1 {
+	color: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_1/color'] }};
+	font-family: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_1/font_face'] }};
+	font-size: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_1/font_size'] }};
+}
+
+
+#cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae h3 {
+	color: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_3/color'] }};
+	font-family: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_3/font_face'] }};
+	font-size: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/heading_3/font_size'] }};
+}
+
+#cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae p {
+	color: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/body/color'] }};
+	font-family: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/body/font_face'] }};
+	font-size: {{ settings['cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}*/

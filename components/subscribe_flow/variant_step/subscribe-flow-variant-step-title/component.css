@@ -1,0 +1,19 @@
+#subscribe-flow-variant-step-title {
+	background-color: {{ settings["subscribe-flow-variant-step-title/background_color"] }};
+	padding-bottom: 0;
+}
+
+#subscribe-flow-variant-step-title h1 {
+	color: {{ settings['subscribe-flow-variant-step-title/heading/color'] }};
+	font-family: {{ settings['subscribe-flow-variant-step-title/heading/font_face'] }};
+	font-size: {{ settings['subscribe-flow-variant-step-title/heading/font_size'] }};
+}
+
+#subscribe-flow-variant-step-title p {
+	color: {{ settings['subscribe-flow-variant-step-title/body/color'] }};
+	font-family: {{ settings['subscribe-flow-variant-step-title/body/font_face'] }};
+	font-size: {{ settings['subscribe-flow-variant-step-title/body/font_size'] }};
+}
+#subscribe-flow-variant-step-title  {
+	padding-bottom: 0;
+}

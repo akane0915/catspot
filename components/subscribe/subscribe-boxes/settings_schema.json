@@ -1,0 +1,131 @@
+{
+    "settings": [
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/label_1"
+        }, 
+        {
+            "type": "image", 
+            "id": "subscribe-boxes/image_1"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/caption_1"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/label_2"
+        }, 
+        {
+            "type": "image", 
+            "id": "subscribe-boxes/image_2"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/caption_2"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/label_3"
+        }, 
+        {
+            "type": "image", 
+            "id": "subscribe-boxes/image_3"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "subscribe-boxes/caption_3"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "color", 
+            "id": "subscribe-boxes/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "subscribe-boxes/tile_background_color", 
+            "label": "Tile Background"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "subscribe-boxes/tile_border_color", 
+            "label": "Tile Border"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-boxes/heading_1/font_face", 
+            "label": "Heading 1"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-boxes/heading_1/font_size"
+        }, 
+        {
+            "inherits": "page_heading/color", 
+            "type": "color", 
+            "id": "subscribe-boxes/heading_1/color"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-boxes/heading_2/font_face", 
+            "label": "Heading 2"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-boxes/heading_2/font_size"
+        }, 
+        {
+            "inherits": "page_secondary_heading/color", 
+            "type": "color", 
+            "id": "subscribe-boxes/heading_2/color"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-boxes/heading_3/font_face", 
+            "label": "Heading 3"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-boxes/heading_3/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "subscribe-boxes/heading_3/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-boxes/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-boxes/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "subscribe-boxes/body/color"
+        }
+    ], 
+    "label": "Boxes"
+}

@@ -1,0 +1,94 @@
+{
+    "global": true, 
+    "settings": [
+        {
+            "inherits": "accent_background_color", 
+            "type": "color", 
+            "id": "global-footer/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "text", 
+            "id": "global-footer/button_text", 
+            "label": "Button"
+        }, 
+        {
+            "type": "link", 
+            "id": "global-footer/button_url", 
+            "label": "Button URL"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/facebook_url", 
+            "label": "Facebook URL"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/twitter_url", 
+            "label": "Twitter URL"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/pinterest_url", 
+            "label": "Pinterest URL"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/instagram_url", 
+            "label": "Instagram URL"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/tumblr_url", 
+            "label": "Tumblr URL"
+        }, 
+        {
+            "boolean": true, 
+            "type": "link", 
+            "id": "global-footer/control_variable/youtube_url", 
+            "label": "YouTube URL"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "global-footer/social_icons_color", 
+            "label": "Social Icons"
+        }, 
+        {
+            "inherits": "accent_color", 
+            "type": "color", 
+            "id": "global-footer/social_icons_hover_color", 
+            "label": "Social Icons Hover"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "global-footer/content", 
+            "label": "Contact"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "global-footer/body/font_face", 
+            "label": "Text"
+        }, 
+        {
+            "type": "color", 
+            "id": "global-footer/body/color"
+        }
+    ], 
+    "label": "Footer"
+}

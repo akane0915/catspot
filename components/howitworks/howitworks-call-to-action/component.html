@@ -1,0 +1,20 @@
+<section id="howitworks-call-to-action" class="component-text-col-with-button">
+	<div class="container-fluid">
+		<div class="row square-row">
+			
+			<div class="col-md-6 col-xs-12 content flex-center">
+				{{ settings["howitworks-call-to-action/content_1"] }}
+			</div>
+
+			<div class="col-md-6 col-xs-12 content flex-center">
+				<div class="cta">
+					{{ settings["howitworks-call-to-action/content_2"] }}
+					<div class="button-container">
+						<a type="button" class="btn btn-large btn-primary" href="{{ settings['howitworks-call-to-action/button_url'] | default('#') }}">{{ settings["howitworks-call-to-action/button_text"] }}</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>

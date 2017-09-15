@@ -1,0 +1,150 @@
+#subscribe-product-list {
+	background-color: {{ settings["subscribe-product-list/background_color"] }};
+}
+
+#subscribe-product-list h3 {
+	color: {{ settings['subscribe-product-list/name/color'] }};
+	font-family: {{ settings['subscribe-product-list/name/font_face'] }};
+	font-size: {{ settings['subscribe-product-list/name/font_size'] }};
+}
+
+#subscribe-product-list .sf-item {
+	background-color: {{ settings["subscribe-product-list/tile_background_color"] }};
+}
+
+#subscribe-product-list  {
+	padding-top: 0;
+}
+
+.catspot-product-list {
+	max-width: 1440px;
+  margin: 0 auto;
+}
+
+.catspot-product {
+  margin: 10px;
+  padding: 0;
+  border: 1px solid rgb(193, 155, 70);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.catspot-product__image {
+  margin-bottom: -2.85em;
+}
+
+.catspot-product__name {
+  position: relative;
+  padding-top: 1em;
+  width: 100%;
+  border-top: 1px solid rgb(193, 155, 70);
+  font-size: 28px;
+  text-align: center;
+  z-index: 10;
+}
+
+.catspot-product__identifiers {
+  position: relative;
+  top: 1.65em;
+  z-index: 20;
+}
+
+.catspot-product__identifier {
+  display: inline-block;
+  margin: 0 .25em;
+  width: 2.5em;
+  height: 2.5em;
+  background: white;
+  background-position: center center;
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(193, 155, 70);
+  border-radius: 50%;
+  content: " ";
+}
+
+.catspot-product__identifier--cat {
+  background-image: url("https://s3.amazonaws.com/cratejoy_vendor_images/catspot/bold_mobile/images/icon-paw.png");
+}
+
+.catspot-product__identifier--more {
+  background-image: url("https://s3.amazonaws.com/cratejoy_vendor_images/catspot/bold_mobile/images/icon-plus.png");
+}
+.catspot-product__incrementer{
+	background-color: #5b7782;
+	display: inline-block;
+	float: right;
+	margin: 0.25em 0 0;
+	width: 1em;
+	height: 1em;
+	background-position: center center;
+	background-size: 10px;
+	background-repeat: no-repeat;
+	border: 1px solid rgb(193, 155, 70);
+	border-radius: 50%;
+	content: " ";
+}
+.catspot-product__incrementer--less{
+	background-image: url({{ 'images/icon-minus-white.png' | asset_url }});
+}
+.catspot-product__incrementer--more{
+	background-image: url({{ 'images/icon-plus-white.png' | asset_url }});
+}
+.catspot-product__incrementer--less.inactive,
+.catspot-product__incrementer--more.inactive{
+	opacity: .6;
+}
+.catspot-product__features {
+  margin: 0;
+  padding: 0 10%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.catspot-product__feature-title {
+  clear: left;
+  float: left;
+  margin: 0 0 1.25em 0;
+  width: 50%;
+  font-weight: normal;
+  text-align: left;
+}
+
+.catspot-product__feature-definition {
+  float: right;
+  margin: 0 0 1em 0;
+  width: 50%;
+  font-weight: bold;
+  text-align: right;
+}
+.sf-grid__container:nth-child(4) .catspot-product__feature-definition.catspot-product__number-bags{
+	width: 10%;
+	text-align: center;
+}
+.catspot-product__description {
+  margin: 0 0 1em 0;
+  padding: 0 10%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.catspot-product__footer {
+  margin: 0;
+  padding: 0;
+}
+
+.catspot-product__buy {
+  margin: 0;
+  width: 100%;
+  font-family: Roboto Slab;
+  transition: .25s;
+}
+
+.catspot-product__buy--disabled {
+	opacity: 0;
+}
+
+.catspot-product__iframe {
+	display: none;
+}

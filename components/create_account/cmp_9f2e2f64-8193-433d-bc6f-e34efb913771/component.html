@@ -1,0 +1,87 @@
+<section id="create_account_header" class="component-rich-text-center">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 header-center">
+				<h2>Your Choice</h2>
+				<p>Pick the Plan that's Purrfect for You</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="create-account" class="component-rich-text-with-button">
+	<div class="container-fluid" id="createAccount">
+		<h1>Your Choice</h1>
+		<div class="component-rich-text-with-button__content-row row">
+			<div class="col-md-4 package-option sf-grid-padding">
+        <a href="{{ settings['cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button_url'] | default('#') }}">
+          <div class="purchase-option__text">
+						<img class="package-icon" src="{{ '/images/convenience-package-calendar-icon.png' | asset_url }}" alt="heart-icon">
+            <h3 class="purchase-option__text__title">CONVENIENCE PACKAGE</h3>
+            <p class="purchase-option__text__desc">$15/<span>BAG</span></p>
+          </div>
+					<div class="purchase-option__list_container">
+						<div class="purchase-option__list">
+							<ul>
+								<li>Recurring Monthly Deliveries</li>
+								<li>Choose Bag Quantity</li>
+								<li>Cancel at Any Time
+								<li>Free Shipping</li>
+							</ul>
+						</div>
+					</div>
+					<div class="select-package-container">
+						<h3 class="select-package-text">Select this Package</h3>
+					</div>
+        </a>
+			</div>
+
+			<div class="col-md-4 middle-div-container sf-grid-padding">
+				<div class="middle-div">
+					<div class="or-circle-icon">
+						<p>OR</p>
+					</div>
+					<p id="always-free-text">Always Free<br />Shipping</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 package-option sf-grid-padding">
+        <a href="/shop/product/507928554">
+          <div class="purchase-option__text">
+						<img class="package-icon" src="{{ '/images/just-try-it-heart-icon.png' | asset_url }}" alt="heart-icon">
+            <h3 class="purchase-option__text__title">JUST TRY IT</h3>
+            <p class="purchase-option__text__desc">$18/<span>BAG</span></p>
+          </div>
+					<div class="purchase-option__list_container">
+						<div class="purchase-option__list">
+							<ul>
+								<li>Zero Commitment</li>
+								<li>Choose Bag Quantity</li>
+								<li>$3 More Per Bag</li>
+								<li>Free Shipping</li>
+							</ul>
+						</div>
+					</div>
+					<div class="select-package-container">
+						<h3 class="select-package-text">Select this Package</h3>
+					</div>
+        </a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    var event = { 'event': 'checkoutOption' };
+
+	event.ecommerce = {
+    	'checkout': {
+            'actionField': {'step': 1, 'option': 'Create Account' },
+            'products': []
+        }
+    }
+
+    window.dataLayer.push(event);
+</script>

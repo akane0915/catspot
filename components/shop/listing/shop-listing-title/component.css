@@ -1,0 +1,37 @@
+#shop-listing-title {
+	background-color: {{ settings['shop-listing-title/background_color'] }};
+}
+
+#shop-listing-title h1 {
+	color: {{ settings['shop-listing-title/heading_1/color'] }};
+	font-family: {{ settings['shop-listing-title/heading_1/font_face'] }};
+	font-size: {{ settings['shop-listing-title/heading_1/font_size'] }};
+}
+
+#shop-listing-title h2 {
+	color: {{ settings['shop-listing-title/heading_2/color'] }};
+	font-family: {{ settings['shop-listing-title/heading_2/font_face'] }};
+	font-size: {{ settings['shop-listing-title/heading_2/font_size'] }};
+}
+
+#shop-listing-title h3 {
+	color: {{ settings['shop-listing-title/heading_3/color'] }};
+	font-family: {{ settings['shop-listing-title/heading_3/font_face'] }};
+	font-size: {{ settings['shop-listing-title/heading_3/font_size'] }};
+}
+
+#shop-listing-title p {
+	color: {{ settings['shop-listing-title/body/color'] }};
+	font-family: {{ settings['shop-listing-title/body/font_face'] }};
+	font-size: {{ settings['shop-listing-title/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#shop-listing-title .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+#shop-listing-title  {
+	padding-bottom: 20px;
+}

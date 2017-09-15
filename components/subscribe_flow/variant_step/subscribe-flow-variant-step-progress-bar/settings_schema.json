@@ -1,0 +1,28 @@
+{
+    "settings": [
+        {
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-progress-bar/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-progress-bar/progress_bar_color", 
+            "label": "Progress Bar Color"
+        }, 
+        {
+            "inherits": "primary_color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-progress-bar/active_color", 
+            "label": "Active Color"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-progress-bar/text_color", 
+            "label": "Text Color"
+        }
+    ], 
+    "label": "Progress Bar"
+}

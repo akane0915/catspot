@@ -1,0 +1,16 @@
+.leftRail .panel{
+	display: none;
+}
+.leftRail .panel.active,
+#subscriptionDisplay{
+	display: block;
+}
+.leftRail .panel .showMore{
+	text-align: right;
+}
+.centered{
+  text-align: center;
+}
+#subscriptionDisplay .subscriptionOr{
+ padding: 0; 
+}

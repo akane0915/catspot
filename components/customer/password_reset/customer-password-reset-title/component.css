@@ -1,0 +1,34 @@
+#customer-password-reset-title {
+	background-color: {{ settings['customer-password-reset-title/background_color'] }};
+}
+
+#customer-password-reset-title h1 {
+	color: {{ settings['customer-password-reset-title/heading_1/color'] }};
+	font-family: {{ settings['customer-password-reset-title/heading_1/font_face'] }};
+	font-size: {{ settings['customer-password-reset-title/heading_1/font_size'] }};
+}
+
+#customer-password-reset-title h2 {
+	color: {{ settings['customer-password-reset-title/heading_2/color'] }};
+	font-family: {{ settings['customer-password-reset-title/heading_2/font_face'] }};
+	font-size: {{ settings['customer-password-reset-title/heading_2/font_size'] }};
+}
+
+#customer-password-reset-title h3 {
+	color: {{ settings['customer-password-reset-title/heading_3/color'] }};
+	font-family: {{ settings['customer-password-reset-title/heading_3/font_face'] }};
+	font-size: {{ settings['customer-password-reset-title/heading_3/font_size'] }};
+}
+
+#customer-password-reset-title p {
+	color: {{ settings['customer-password-reset-title/body/color'] }};
+	font-family: {{ settings['customer-password-reset-title/body/font_face'] }};
+	font-size: {{ settings['customer-password-reset-title/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#customer-password-reset-title .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}

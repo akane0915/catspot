@@ -1,0 +1,13 @@
+#cmp_f3f84e00-40f4-4bba-86b8-b3dcf968e85e .container-fluid {
+	padding: 0;
+	margin: 0;
+}
+	#cmp_f3f84e00-40f4-4bba-86b8-b3dcf968e85e .container-fluid .row {
+		margin: 0;
+	}
+	#cmp_f3f84e00-40f4-4bba-86b8-b3dcf968e85e .container-fluid .col-xs-12{
+		padding: 0;
+	}
+#cmp_f3f84e00-40f4-4bba-86b8-b3dcf968e85e .container-fluid h2 {
+	margin: 0;
+}

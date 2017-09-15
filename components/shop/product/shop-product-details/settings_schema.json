@@ -1,0 +1,30 @@
+{
+    "settings": [
+        {
+            "type": "text", 
+            "id": "shop-product-details/quantity_label", 
+            "label": "Quantity Label"
+        }, 
+        {
+            "type": "text", 
+            "id": "shop-product-details/add_to_cart_button", 
+            "label": "Add-to-Cart Button"
+        }, 
+        {
+            "type": "text", 
+            "id": "shop-product-details/write_review_button", 
+            "label": "Review Button"
+        }, 
+        {
+            "type": "text", 
+            "id": "shop-product-details/share_label", 
+            "label": "Share Label"
+        }, 
+        {
+            "type": "text", 
+            "id": "shop-product-details/product_description_label", 
+            "label": "Description Label"
+        }
+    ], 
+    "label": "Details"
+}

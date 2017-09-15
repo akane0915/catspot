@@ -1,0 +1,56 @@
+#sold-out-content {
+	background-color: {{ settings['sold-out-content/background_color'] }};
+}
+
+#sold-out-content h1 {
+	color: {{ settings['sold-out-content/heading_1/color'] }};
+	font-family: {{ settings['sold-out-content/heading_1/font_face'] }};
+	font-size: {{ settings['sold-out-content/heading_1/font_size'] }};
+}
+
+#sold-out-content h2 {
+	color: {{ settings['sold-out-content/heading_2/color'] }};
+	font-family: {{ settings['sold-out-content/heading_2/font_face'] }};
+	font-size: {{ settings['sold-out-content/heading_2/font_size'] }};
+}
+
+#sold-out-content h3 {
+	color: {{ settings['sold-out-content/heading_3/color'] }};
+	font-family: {{ settings['sold-out-content/heading_3/font_face'] }};
+	font-size: {{ settings['sold-out-content/heading_3/font_size'] }};
+}
+
+#sold-out-content p {
+	color: {{ settings['sold-out-content/body/color'] }};
+	font-family: {{ settings['sold-out-content/body/font_face'] }};
+	font-size: {{ settings['sold-out-content/body/font_size'] }};
+}
+
+
+#sold-out-content .btn {
+	background-color: {{ settings['sold-out-content/button/color'] }};
+	color: {{ settings['sold-out-content/button/text_color'] }};
+	font-family: {{ settings['sold-out-content/button/font_face'] }};
+	font-size: {{ settings['sold-out-content/button/font_size'] }};
+}
+
+#sold-out-content .btn:hover {
+	background-color: {{ settings['sold-out-content/button/hover_color'] }};
+	color: {{ settings['sold-out-content/button/hover_text_color'] }};
+}
+
+#sold-out-content .component-rich-text-with-button__content-row,
+#sold-out-content .component-rich-text-with-button__button-row {
+	padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+	#sold-out-content .component-rich-text-with-button__content-row,
+	#sold-out-content .component-rich-text-with-button__button-row {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+#sold-out-content  {
+	padding-top: 0;
+}

@@ -1,0 +1,25 @@
+{
+    "global": true,
+    "label": "Header",
+    "settings": [
+        {
+            "boolean": true,
+            "type": "image",
+            "id": "global-header/logo_image",
+            "label": "Logo Image"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "color",
+            "id": "global-header/border_color",
+            "label": "Border"
+        },
+        {
+            "inherits": "page_tertiary_heading/font_size",
+            "type": "font_size",
+            "id": "global-header/logo_button/font_size"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "settings": [
+        {
+            "type": "richtext", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/content"
+        }, 
+        {
+            "type": "text", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button_text", 
+            "label": "Button"
+        }, 
+        {
+            "type": "link", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button_url", 
+            "label": "Button URL"
+        }, 
+        {
+            "inherits": "page_background_color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_1/font_face", 
+            "label": "Heading 1"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_1/font_size"
+        }, 
+        {
+            "inherits": "page_heading/color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_1/color"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_2/font_face", 
+            "label": "Heading 2"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_2/font_size"
+        }, 
+        {
+            "inherits": "page_secondary_heading/color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_2/color"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_3/font_face", 
+            "label": "Heading 3"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_3/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/heading_3/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/body/color"
+        }, 
+        {
+            "inherits": "primary_button/font_face", 
+            "type": "font_face", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/font_face", 
+            "label": "Button"
+        }, 
+        {
+            "inherits": "primary_button/font_size", 
+            "type": "font_size", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/font_size"
+        }, 
+        {
+            "inherits": "primary_button/color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/color"
+        }, 
+        {
+            "inherits": "primary_button/hover_color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/hover_color"
+        }, 
+        {
+            "inherits": "primary_button/text_color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/text_color"
+        }, 
+        {
+            "inherits": "primary_button/hover_text_color", 
+            "type": "color", 
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771/button/hover_text_color"
+        }
+    ], 
+    "label": "Content"
+}

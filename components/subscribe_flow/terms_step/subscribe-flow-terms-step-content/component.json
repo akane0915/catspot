@@ -1,0 +1,10 @@
+{
+    "source_listing_id": 441383137, 
+    "name": "Content", 
+    "whitelist": [
+        "subscribe_flow/terms_step"
+    ], 
+    "source": "terms-step-content_v1", 
+    "version": "1", 
+    "description": "Terms Step Content"
+}

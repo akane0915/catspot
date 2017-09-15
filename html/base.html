@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+ <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+ </script>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="format-detection" content="telephone=no"/>
+  <!–[if lt IE 11]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <![endif]–>
+	<meta name="msvalidate.01" content="2DA17E6515D3B4316C99992BA5DA83F7" />
+	<title>{% block title %}{{ page_title }}{% endblock %}</title>
+	{{ 'images/favicon.ico' | asset_url | icon_tag }}
+
+	{{ settings | meta_tags(slug, path) }}
+	{{ store | canonical_tags(slug, path) | replace("https", "http")}}
+	{{ store | ogp_tags(page_title) }}
+	{{ 'css/reset.css' | asset_url | stylesheet_tag }}
+	{{ css.base() }}
+	{{ 'css/bootstrap.css' | asset_url | stylesheet_tag }}
+	{{ 'css/plugins/pikachoose/base.css' | asset_url | stylesheet_tag }}
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
+  
+ 	{{ 'js/slick/slick.css' | asset_url | stylesheet_tag }}
+	{{ 'js/slick/slick-theme.css' | asset_url | stylesheet_tag }}
+
+	{{ 'css/style.css' | asset_url | stylesheet_tag }}
+  
+  
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300,500,600,700|Roboto+Slab" rel="stylesheet">
+	{% block css %}
+
+	{% endblock %}
+
+	{% set cart = active_cart() %}
+	{{ settings.header_code | safe }}
+
+	<!-- DON'T PUT JAVASCRIPT INCLUDES IN THE HEADER! Put them in the footer! -->
+  <meta name="google-site-verification" content="bpk2ZVV1nT58MCaZKhvXFmZKmtpwaUm96si-cVSUKxA" />
+  <meta name="google-site-verification" content="Ryt8r_O521iWhh73anxcxl7r5ZVlvst3VihIk63PCXQ" />
+
+
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WD27VF');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD27VF"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+  
+	{% block page_content %}
+		{{ components_helpers.render_components('base') }}
+		{{ components_helpers.render_components(components_list_name) }}
+	{% endblock %}
+  
+  {% block ui_content %}
+  {% endblock %}
+	
+  	
+	<script src="{{ 'js/jquery-1.11.1.min.js' | asset_url }}"></script>
+	<script src="{{ 'js/tether.min.js' | asset_url }}"></script>
+	<script src="{{ 'js/bootstrap.min.js' | asset_url }}"></script>
+	<script src="{{ 'js/main.js' | asset_url }}"></script>
+  		
+  	
+
+	{{ ga.base() }}
+	{{ js.base() }}
+
+	{% block page_javascript %}
+		{{ components_helpers.scripts_for_page('base') }}
+		{{ components_helpers.scripts_for_page(components_list_name) }}
+	{% endblock %}
+
+	{{ settings.footer_code | safe }}
+  
+	{% if guest %}
+	<script>
+	  window.intercomSettings = {
+		app_id: "md2sod8z"
+	  };
+	</script>
+	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/md2sod8z';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+	{% else %}
+	<script>
+	  
+	  window.intercomSettings = {
+		app_id: "md2sod8z",
+		name: "{{ customer.name }}", // Full name
+		email: "{{ customer.email }}", // Email address
+		created_at: new Date('{{ customer.created_at }}').getTime() / 1000 // Signup date as a Unix timestamp
+	  };
+	  
+	  
+	  
+	</script>
+	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/md2sod8z';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>  
+	{% endif %}
+
+ 	
+
+</body>
+</html>

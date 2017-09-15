@@ -1,0 +1,37 @@
+#subscribe-title {
+	background-color: {{ settings['subscribe-title/background_color'] }};
+}
+
+#subscribe-title h1 {
+	color: {{ settings['subscribe-title/heading_1/color'] }};
+	font-family: {{ settings['subscribe-title/heading_1/font_face'] }};
+	font-size: {{ settings['subscribe-title/heading_1/font_size'] }};
+}
+
+#subscribe-title h2 {
+	color: {{ settings['subscribe-title/heading_2/color'] }};
+	font-family: {{ settings['subscribe-title/heading_2/font_face'] }};
+	font-size: {{ settings['subscribe-title/heading_2/font_size'] }};
+}
+
+#subscribe-title h3 {
+	color: {{ settings['subscribe-title/heading_3/color'] }};
+	font-family: {{ settings['subscribe-title/heading_3/font_face'] }};
+	font-size: {{ settings['subscribe-title/heading_3/font_size'] }};
+}
+
+#subscribe-title p {
+	color: {{ settings['subscribe-title/body/color'] }};
+	font-family: {{ settings['subscribe-title/body/font_face'] }};
+	font-size: {{ settings['subscribe-title/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#subscribe-title .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+#subscribe-title  {
+	padding-bottom: 0;
+}

@@ -1,0 +1,38 @@
+#howitworks-call-to-action {
+	background-color: {{ settings['howitworks-call-to-action/background_color'] }};
+	padding: 0;
+}
+
+#howitworks-call-to-action .content {
+	margin: 0 auto;
+	padding: 25px;
+}
+
+#howitworks-call-to-action .content .cta {
+	border: 5px solid {{ settings['howitworks-call-to-action/border_color'] }};
+	padding: 45px;
+}
+
+#howitworks-call-to-action h1 {
+	color: {{ settings['howitworks-call-to-action/heading_1/color'] }};
+	font-family: {{ settings['howitworks-call-to-action/heading_1/font_face'] }};
+	font-size: {{ settings['howitworks-call-to-action/heading_1/font_size'] }};
+}
+
+#howitworks-call-to-action h2 {
+	color: {{ settings['howitworks-call-to-action/heading_2/color'] }};
+	font-family: {{ settings['howitworks-call-to-action/heading_2/font_face'] }};
+	font-size: {{ settings['howitworks-call-to-action/heading_2/font_size'] }};
+}
+
+#howitworks-call-to-action h3 {
+	color: {{ settings['howitworks-call-to-action/heading_3/color'] }};
+	font-family: {{ settings['howitworks-call-to-action/heading_3/font_face'] }};
+	font-size: {{ settings['howitworks-call-to-action/heading_3/font_size'] }};
+}
+
+#howitworks-call-to-action p {
+	color: {{ settings['howitworks-call-to-action/body/color'] }};
+	font-family: {{ settings['howitworks-call-to-action/body/font_face'] }};
+	font-size: {{ settings['howitworks-call-to-action/body/font_size'] }};
+}

@@ -1,0 +1,58 @@
+#choosePackage h1{
+	padding: 1em 0;
+	margin: 0;
+}
+.adjust-subscription{
+	background-color: #fff;
+  	border: 1px solid rgb(193, 155, 70);
+	border-radius: 6px;
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+.adjust-subscription__description__wrapper{
+	padding: 2em;
+}
+#choosePackage h2{
+	font-size: 1.4em;
+	color: rgb(117, 117, 117);
+	margin-bottom: .5em;
+}
+#choosePackage .catspot-product__feature-title{
+
+}
+.adjust-subscription__product{
+	text-align: center;
+	padding: 0;
+}
+.adjust-subscription__images{
+	display: none;
+	position: relative;
+}
+.adjust-subscription__images img{
+}
+.catspot-product__image img{
+	max-width: 100%;
+}
+#choosePackage .catspot-product__description{
+	clear: both;
+}
+#choosePackage .catspot-product__number-bags{
+	width: 5%;
+  	text-align: center;
+}
+#choosePackage .catspot-product__adjust{
+	width: 100.1%;
+  	margin: 0;
+	font-family: Roboto Slab;
+	transition: .25s;
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1200px){
+	.adjust-subscription__images{
+		display: inline-block;
+	}
+	.adjust-subscription__product__wrapper{
+		border-left: solid 1px rgb(193, 155, 70);
+	}
+}

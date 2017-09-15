@@ -1,0 +1,453 @@
+#navigation {
+	display: table;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	height: 105%;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(252,175,23,.99);
+	transition: all .4s ease-out;
+	opacity: 0;
+	pointer-events: none;
+}
+
+	#navigation.active {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	#navigation a.nav-close-button {
+		position: absolute;
+		display: block;
+		top: 5%;
+		right: 4%;
+		color: #fff;
+		font-size: 4em;
+	}
+
+	#navigation > a:hover {
+		text-decoration: none;
+	}
+
+	#navigation ul {
+		display: table-cell;
+		vertical-align: middle;
+      	z-index: 1000;
+	}
+
+    #navigation ul li a {
+      color: #fff;
+      font-family: Dosis;
+      font-size: 2em;
+      margin: 2em;
+      display: block;
+      font-weight: 500;
+    }
+
+#global-header-wrapper{
+ 	padding-left: 0;
+  	padding-right: 0;
+}
+.stepsNav {
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin-bottom: 1em;
+	font-size: .8em;
+}
+
+	.stepsNav ul {
+		padding: .1em;
+	}
+
+	.stepsNav li {
+		display: inline-block;
+		position: relative;
+		padding: 2em 0em 0em 0em;
+		width: 25%;
+		text-align: center;
+		background-size: 23px;
+		font-weight: bold;
+		color: #ddd;
+	}
+
+		.stepsNav li span {
+			position: relative;
+			display: inline-block;
+			top: -26px;
+			border: solid 3px;
+			height: 1.75em;
+			width: 1.75em;
+			border-radius: 50%;
+			z-index: 2;
+			background-color: #fff;
+			line-height: 1.5;
+		}
+
+		.stepsNav li.active {
+			color: rgb(252, 175, 29);
+		}
+
+		.stepsNav li:before {
+			display: block;
+			position: absolute;
+			left: 50%;
+			top: 25px;
+			width: 100%;
+			-o-transform: translateX(-50%);
+			-moz-transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			line-height: 1.1;
+		}
+
+		.stepsNav li:nth-of-type(1):before {
+			content: 'Get Started';
+		}
+
+		.stepsNav li:nth-of-type(2):before {
+			content: 'Choose Package';
+		}
+
+		.stepsNav li:nth-of-type(3):before {
+			content: 'Checkout';
+		}
+
+		.stepsNav li:nth-of-type(4):before {
+			content: 'Confirmation';
+		}
+
+		.stepsNav li:after {
+			display: block;
+			width: 90%;
+			height: 6px;
+			content: '';
+			position: absolute;
+			top: 13%;
+			left: 58%;
+			border-bottom: dotted 2px #ccc;
+		}
+
+		.stepsNav li:last-child:after {
+			display: none;
+		}
+#global-header {
+	z-index: 999;
+	position: relative;
+	padding: 0;
+	height: 5em;
+}
+
+	#global-header .dropdown-menu {
+		background-color: #fff;
+	}
+
+	#global-header .navbar-nav .dropdown-menu .nav-link {
+		margin-right: 0;
+		padding: 15px;
+		font-size: .8em;
+	}
+
+#navbar-menu-wrapper {
+	position: absolute;
+	right: 3%;
+	top: 1.4em;
+
+}
+
+#global-header .navbar {
+	background: none;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+#global-header .navbar-branding {
+	display: inline-block;
+	padding: 15px 0 15px 5%;
+	flex-grow: 0;
+	width: 47%;
+}
+.hidenav #global-header .navbar-branding {
+	height: 95px;
+}
+
+#global-header .navbar-branding img {
+	max-width: 60%;
+}
+
+#global-header .navbar .navbar-toggler {
+	padding: 15px;
+	background: url(https://s3.amazonaws.com/cratejoy_vendor_images/catspot/bold_mobile-copy-6/images/MenuButton.svg);
+	background-repeat: no-repeat;
+	border: 0;
+	font-size: 12px;
+	color: rgb(252,175,23);
+	position: relative;
+	top: 5px;
+	float: right;
+}
+
+	#global-header .navbar .navbar-toggler:after {
+		content: 'Menu';
+		position: absolute;
+		display: block;
+		bottom: -1em;
+		right: 0;
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#global-header .navbar-nav {
+		padding-bottom: 0;
+		flex-direction: row;
+		padding: 0;
+	}
+
+
+		#global-header .navbar-nav li {
+			display: inline-block;
+			padding: 0;
+		}
+
+		#global-header .navbar-nav .nav-link {
+			margin: 2px 10px 0 0;
+			padding: 6px 15px;
+			border: solid 1px rgb(252,175,23);
+			border-radius: 4px;
+			font-family: Dosis;
+			font-weight: 500;
+			color: rgb(252,175,23);
+			text-transform: capitalize;
+			line-height: 1;
+		}
+		#global-header .navbar-nav .dropdown-menu .nav-link {
+			border: none;
+		}
+#navbar-menu-wrapper #navbar-menu {
+	flex-grow: 0;
+	display: inline-block !important;
+}
+
+
+.hidenav #global-header {
+	margin-bottom: 5.5em;
+}
+.hidenav #global-header .navbar-toggler,
+.hidenav #navbar-menu li.dropdown,
+.hidenav #navbar-menu,
+.hidenav #global-header-wrapper,
+.hidenav #navbar-menu .navbar-nav {
+	display: none;
+}
+
+
+ul {
+  margin-bottom: 0;
+}
+
+
+  #navigation-big {
+    margin: 1em 0;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    transition: all .4s ease-out;
+  }
+#navigation-big ul {
+    z-index: 1000;
+  }
+#navigation-big .col-md-3 {
+	text-align: left;
+}
+#navigation-big .col-md-9 {
+	text-align: right;
+  	padding: 0;
+}
+
+
+  #navigation-big li {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline;
+    font-family: dosis;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  a, .btn-link {
+    color: rgb(100,61,33)
+  }
+
+  .navbar-branding {
+    max-width: 100%;  
+    display: inline-block;
+  }
+
+li.dropdown-links {
+ 	display: block !important; 
+}
+  .navbar-branding img {
+    max-width: 100%;
+  }
+
+  #header-buy-button {
+    text-transform: none;
+    font-size: 17px;
+    background-color: rgb(252,175,23);
+    color: white;
+    padding: 3px 3em 3px 3em;
+    border-radius: 6px;
+  }
+
+  #header-buy-button:hover {
+ 	background-color: rgb(172,97,41)
+  }
+
+.resize-logo {
+    max-width: 23%;
+    margin-right: -50px;
+  }
+.resize-logo img {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #navigation-big li {
+      font-size: medium;
+      padding: .3em;
+  }
+  .navbar-branding img {
+    margin-top: 0;
+  }
+  #header-buy-button {
+    margin-left: 0;
+    padding: 0.2em 2em .3em 2em;
+  }
+}
+
+@media (min-width: 993px) {
+  #navigation-big ul {
+    transform: translateY(50%);
+    top: 50%;
+  }
+    #navigation-big li {
+      padding: .5em;
+  }
+}
+
+@media (min-width: 768px) {
+	#small-nav-wrapper {
+    	display: none;
+  	}
+   #global-header .navbar-branding {
+    padding: 38px 0 15px 5%;
+  }
+  .stepsNav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 70%;
+    font-size: 1em;
+  }
+  .stepsNav li {
+    display: inline-block;
+	padding: 2em 0em 0em .5em;
+    background-position: center 26%;
+  }
+  .stepsNav li:before {
+    top: 30px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #navigation-big ul {
+    transform: 0;
+    top: 50%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #global-header-wrapper {
+    display: none;
+  }
+  #global-header {
+    border-width: 0;
+  }
+  #small-nav-wrapper {
+    margin-top: 20px;
+  }
+  #small-nav-wrapper .navbar-branding {
+    display: inline-block;
+    padding: 15px 0 15px 5%;
+    width: 40%;
+  }
+
+  #small-nav-wrapper .navbar-branding img {
+    margin-top: 7px;
+    margin-left: 5%;
+    padding 0;
+    max-width: 100%;
+  }
+  .resize-logo {
+    max-width: 35%;
+  }
+}
+
+@media (min-width: 530px) {
+	.home #global-header {
+		height: 7.5em;
+	}
+}
+
+@media(min-width: 1440px) {
+  #global-header .navbar-branding  {
+    width: 40%;
+  }
+   .stepsNav li:before {
+    top: 36px;
+  }
+  .stepsNav li:after {
+    width: 94%;
+    left: 54%;
+  }
+  .stepsNav li {
+    padding: 2em 0em 3em .5em;
+  }
+}
+@media(min-width: 2000px) {
+  #global-header .navbar-branding  {
+    width: 30%;
+  }
+}
+
+
+
+
+#[[COMPONENT_ID]] ol {
+    list-style: decimal;
+    list-style-position: inside;
+    color: {{ settings['[[COMPONENT_ID]]/body/color'] }};
+    font-family: {{ settings['[[COMPONENT_ID]]/body/font_face'] }};
+    font-size: {{ settings['[[COMPONENT_ID]]/body/font_size'] }};
+}
+
+#[[COMPONENT_ID]] ul {
+    list-style: none;
+    list-style-position: inside;
+    color: {{ settings['[[COMPONENT_ID]]/body/color'] }};
+    font-family: {{ settings['[[COMPONENT_ID]]/body/font_face'] }};
+    font-size: {{ settings['[[COMPONENT_ID]]/body/font_size'] }};
+}
+

@@ -1,0 +1,10 @@
+{
+    "settings": [
+        {
+            "type": "image", 
+            "id": "sold-out-image/image", 
+            "label": "Image"
+        }
+    ], 
+    "label": "Image"
+}

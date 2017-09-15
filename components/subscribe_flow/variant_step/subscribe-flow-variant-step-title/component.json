@@ -1,0 +1,12 @@
+{
+    "source_listing_id": 441383137, 
+    "name": "Title", 
+    "whitelist": [
+        "subscribe_flow/survey_step", 
+        "subscribe_flow/terms_step", 
+        "subscribe_flow/variant_step"
+    ], 
+    "source": "subscribe-step-title_v1", 
+    "version": "1", 
+    "description": "Survey Step Title"
+}

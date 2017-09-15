@@ -1,0 +1,28 @@
+#subscribe-flow-terms-step-content {
+	background-color: {{ settings["subscribe-flow-terms-step-content/background_color"] }};
+}
+
+#subscribe-flow-terms-step-content h2 {
+	color: {{ settings['subscribe-flow-terms-step-content/price/color'] }};
+	font-family: {{ settings['subscribe-flow-terms-step-content/price/font_face'] }};
+	font-size: {{ settings['subscribe-flow-terms-step-content/price/font_size'] }};
+}
+
+#subscribe-flow-terms-step-content h3 {
+	color: {{ settings['subscribe-flow-terms-step-content/term/color'] }};
+	font-family: {{ settings['subscribe-flow-terms-step-content/term/font_face'] }};
+	font-size: {{ settings['subscribe-flow-terms-step-content/term/font_size'] }};
+}
+
+#subscribe-flow-terms-step-content p {
+	color: {{ settings['subscribe-flow-terms-step-content/body/color'] }};
+	font-family: {{ settings['subscribe-flow-terms-step-content/body/font_face'] }};
+	font-size: {{ settings['subscribe-flow-terms-step-content/body/font_size'] }};
+}
+
+#subscribe-flow-terms-step-content .sf-item {
+	background-color: {{ settings["subscribe-flow-terms-step-content/tile_background_color"] }};
+}
+#subscribe-flow-terms-step-content  {
+	padding-top: 0;
+}

@@ -1,0 +1,65 @@
+#subscribe-flow-survey-step-boxes {
+	background-color: {{ settings['subscribe-flow-survey-step-boxes/background_color'] }};
+}
+
+#subscribe-flow-survey-step-boxes .content-row {
+	margin: 0;
+
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+
+#subscribe-flow-survey-step-boxes .content {
+	background-color: {{ settings['subscribe-flow-survey-step-boxes/tile_background_color'] }};
+	border: 5px solid {{ settings['subscribe-flow-survey-step-boxes/tile_border_color'] }};
+	margin: 15px 0;
+	padding: 25px;
+
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+#subscribe-flow-survey-step-boxes .square-image {
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	height: 200px;
+	margin: 0 0 15px 0;
+	width: 200px;
+}
+
+#subscribe-flow-survey-step-boxes h1 {
+	color: {{ settings['subscribe-flow-survey-step-boxes/heading_1/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-boxes/heading_1/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-boxes/heading_1/font_size'] }};
+}
+
+#subscribe-flow-survey-step-boxes h2 {
+	color: {{ settings['subscribe-flow-survey-step-boxes/heading_2/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-boxes/heading_2/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-boxes/heading_2/font_size'] }};
+}
+
+#subscribe-flow-survey-step-boxes h3 {
+	color: {{ settings['subscribe-flow-survey-step-boxes/heading_3/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-boxes/heading_3/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-boxes/heading_3/font_size'] }};
+}
+
+#subscribe-flow-survey-step-boxes p {
+	color: {{ settings['subscribe-flow-survey-step-boxes/body/color'] }};
+	font-family: {{ settings['subscribe-flow-survey-step-boxes/body/font_face'] }};
+	font-size: {{ settings['subscribe-flow-survey-step-boxes/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#subscribe-flow-survey-step-boxes .content {
+		margin: 15px;
+	}
+}
+#subscribe-flow-survey-step-boxes  {
+	padding-top: 0;
+}

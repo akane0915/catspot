@@ -1,0 +1,42 @@
+{
+    "settings": [
+        {
+            "type": "color", 
+            "id": "subscribe-flow-survey-step-title/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-flow-survey-step-title/heading/font_face", 
+            "label": "Heading"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-flow-survey-step-title/heading/font_size"
+        }, 
+        {
+            "inherits": "page_heading/color", 
+            "type": "color", 
+            "id": "subscribe-flow-survey-step-title/heading/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-flow-survey-step-title/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-flow-survey-step-title/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "subscribe-flow-survey-step-title/body/color"
+        }
+    ], 
+    "label": "Title"
+}

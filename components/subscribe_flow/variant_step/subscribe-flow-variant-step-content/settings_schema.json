@@ -1,0 +1,58 @@
+{
+    "settings": [
+        {
+            "type": "image", 
+            "id": "subscribe-flow-variant-step-content/variant_placeholder_image", 
+            "label": "Default Image"
+        }, 
+        {
+            "type": "text", 
+            "id": "subscribe-flow-variant-step-content/variant_step_variant_button_text", 
+            "label": "Choose Button"
+        }, 
+        {
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-content/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "page_background_color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-content/tile_background_color", 
+            "label": "Tile Background"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-flow-variant-step-content/variant/font_face", 
+            "label": "Variant"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-flow-variant-step-content/variant/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-content/variant/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-flow-variant-step-content/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-flow-variant-step-content/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "subscribe-flow-variant-step-content/body/color"
+        }
+    ], 
+    "label": "Content"
+}

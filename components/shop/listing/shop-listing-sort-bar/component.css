@@ -1,0 +1,11 @@
+#shop-listing-sort-bar {
+	border-bottom: 1px solid #E1E1E1;
+	padding: 20px 0 40px 0;
+}
+
+#shop-listing-sort-bar ul.nav-pills {
+	background-color: #FAFAFA;
+	border: 1px solid #EEEEEE;
+	border-radius: 3px;
+	padding: 3px;
+}

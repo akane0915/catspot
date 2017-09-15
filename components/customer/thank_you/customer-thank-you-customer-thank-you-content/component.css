@@ -1,0 +1,70 @@
+.checkout_content .cart_listing,
+.checkout_content .cart_addresses{
+	margin: 0 auto;
+}
+
+.catspot-thankyou .cart_addresses {
+	max-width: 80%;
+}
+
+#customer-thank-you-customer-thank-you-content .order_thanks{
+	font-size: 3em;
+	padding: 1.5em;
+}
+#customer-thank-you-customer-thank-you-content .ship_to{
+	margin: 1em 0 0;
+}
+h2.follow-us{
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: rgb(25, 171, 223);
+	font-family: dosis;
+	font-weight: bold;
+	font-size: 4em;
+	margin: 1em 0 .5em;
+}
+p.follow-us-text{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.thank-you-social{
+	margin: 0 auto;
+}
+.thank-you-social a{
+	margin: 0 1em;
+}
+.thank-you-social a:hover{
+	text-decoration: none;
+}
+.thank-you-social a svg{
+	width: 40px;
+}
+.thank-you-social-facebook svg path{
+	fill: #3e5c98;
+}
+.thank-you-social-twitter svg path{
+	fill: #2aa2ee;
+}
+.thank-you-social-pinterest svg path{
+	fill: #ba0e23;
+}
+.thank-you-social-instagram svg path{
+	fill: #4c68d7;
+}
+@media (min-width: 768px) {
+.checkout_content .cart_listing,
+.checkout_content .cart_addresses,
+p.follow-us-text{
+	font-size: 1.25em;
+}
+}
+@media (min-width: 1250px) {
+.checkout_content .cart_listing,
+.checkout_content .cart_addresses,
+p.follow-us-text{
+	font-size: 1em;
+}
+}

@@ -1,0 +1,171 @@
+{
+    "settings": [
+        {
+            "boolean": true, 
+            "type": "switch", 
+            "id": "index-hero/control_variable/overlay", 
+            "label": "Overlay"
+        }, 
+        {
+            "type": "image", 
+            "id": "index-hero/image", 
+            "label": "Image"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "index-hero/content"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "text", 
+            "id": "index-hero/primary_button_text", 
+            "label": "Button Text 1"
+        }, 
+        {
+            "type": "link", 
+            "id": "index-hero/primary_button_url", 
+            "label": "Button URL 1"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "text", 
+            "id": "index-hero/secondary_button_text", 
+            "label": "Button Text 2"
+        }, 
+        {
+            "type": "link", 
+            "id": "index-hero/secondary_button_url", 
+            "label": "Button URL 2"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/heading_1/font_face", 
+            "label": "Heading 1"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/heading_1/font_size"
+        }, 
+        {
+            "type": "color", 
+            "id": "index-hero/heading_1/color"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/heading_2/font_face", 
+            "label": "Heading 2"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/heading_2/font_size"
+        }, 
+        {
+            "type": "color", 
+            "id": "index-hero/heading_2/color"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/heading_3/font_face", 
+            "label": "Heading 3"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/heading_3/font_size"
+        }, 
+        {
+            "type": "color", 
+            "id": "index-hero/heading_3/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/body/font_size"
+        }, 
+        {
+            "type": "color", 
+            "id": "index-hero/body/color"
+        }, 
+        {
+            "inherits": "primary_button/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/primary_button/font_face", 
+            "label": "Primary Button"
+        }, 
+        {
+            "inherits": "primary_button/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/primary_button/font_size"
+        }, 
+        {
+            "inherits": "primary_button/color", 
+            "type": "color", 
+            "id": "index-hero/primary_button/color"
+        }, 
+        {
+            "inherits": "primary_button/hover_color", 
+            "type": "color", 
+            "id": "index-hero/primary_button/hover_color"
+        }, 
+        {
+            "inherits": "primary_button/text_color", 
+            "type": "color", 
+            "id": "index-hero/primary_button/text_color"
+        }, 
+        {
+            "inherits": "primary_button/hover_text_color", 
+            "type": "color", 
+            "id": "index-hero/primary_button/hover_text_color"
+        }, 
+        {
+            "inherits": "secondary_button/font_face", 
+            "type": "font_face", 
+            "id": "index-hero/secondary_button/font_face", 
+            "label": "Secondary Button"
+        }, 
+        {
+            "inherits": "secondary_button/font_size", 
+            "type": "font_size", 
+            "id": "index-hero/secondary_button/font_size"
+        }, 
+        {
+            "inherits": "secondary_button/color", 
+            "type": "color", 
+            "id": "index-hero/secondary_button/color"
+        }, 
+        {
+            "inherits": "secondary_button/hover_color", 
+            "type": "color", 
+            "id": "index-hero/secondary_button/hover_color"
+        }, 
+        {
+            "inherits": "secondary_button/text_color", 
+            "type": "color", 
+            "id": "index-hero/secondary_button/text_color"
+        }, 
+        {
+            "inherits": "secondary_button/hover_text_color", 
+            "type": "color", 
+            "id": "index-hero/secondary_button/hover_text_color"
+        }
+    ], 
+    "label": "Hero"
+}

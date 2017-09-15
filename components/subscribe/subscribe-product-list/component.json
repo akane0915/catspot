@@ -1,0 +1,10 @@
+{
+    "source_listing_id": 441383137, 
+    "name": "Product List", 
+    "whitelist": [
+        "subscribe_flow/product_step"
+    ], 
+    "source": "subscription-product-list_v1", 
+    "version": "1", 
+    "description": "Subscription Product List"
+}

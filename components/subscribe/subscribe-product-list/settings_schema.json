@@ -1,0 +1,53 @@
+{
+    "settings": [
+        {
+            "type": "text", 
+            "id": "subscribe-product-list/product_button_text", 
+            "label": "Choose Button"
+        }, 
+        {
+            "type": "color", 
+            "id": "subscribe-product-list/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "page_background_color", 
+            "type": "color", 
+            "id": "subscribe-product-list/tile_background_color", 
+            "label": "Tile Background"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-product-list/name/font_face", 
+            "label": "Name"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-product-list/name/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "subscribe-product-list/name/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "subscribe-product-list/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "subscribe-product-list/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "subscribe-product-list/body/color"
+        }
+    ], 
+    "label": "Product List"
+}

@@ -1,0 +1,556 @@
+{
+    "index": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "index-hero", 
+            "label": "Hero"
+        }, 
+        {
+            "id": "cmp_96917d27-c3bb-4540-83d2-8940303f8b38", 
+            "label": "How It Works"
+        }, 
+        {
+            "id": "cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e", 
+            "label": "Testimonials"
+        }, 
+        {
+            "id": "cmp_154d6f0b-91f8-4366-a3d0-d740ac16bf10", 
+            "label": "Why CatSpot?"
+        }, 
+        {
+            "id": "cmp_a797ad06-d04e-49f3-a656-065c536a355c", 
+            "label": "Pricing"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "global": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }, 
+        {
+            "id": "global-gifting", 
+            "label": "Gifting"
+        }
+    ], 
+    "customer/account": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-account-customer-account-content", 
+            "label": "Customer Account Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "subscribe_flow/terms_step": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "subscribe-flow-terms-step-progress-bar", 
+            "label": "Progress Bar"
+        }, 
+        {
+            "id": "subscribe-flow-terms-step-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "subscribe-flow-terms-step-content", 
+            "label": "Content"
+        }, 
+        {
+            "id": "subscribe-flow-terms-step-previous-boxes", 
+            "label": "Previous Boxes"
+        }, 
+        {
+            "id": "subscribe-flow-terms-step-boxes", 
+            "label": "Boxes"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "view-cart": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "view-cart-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "view-cart-cart", 
+            "label": "Cart"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/login": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-login-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "customer-login-login-form", 
+            "label": "Login Form"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "faq": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "faq-faq", 
+            "label": "FAQ"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "sold_out": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "sold-out-image", 
+            "label": "Image"
+        }, 
+        {
+            "id": "sold-out-content", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/thank_you": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-thank-you-customer-thank-you-content", 
+            "label": "Customer Thank You Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "subscribe": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "subscribe-progress-bar", 
+            "label": "Progress Bar"
+        }, 
+        {
+            "id": "subscribe-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "subscribe-product-list", 
+            "label": "Product List"
+        }, 
+        {
+            "id": "subscribe-previous-boxes", 
+            "label": "Previous Boxes"
+        }, 
+        {
+            "id": "subscribe-boxes", 
+            "label": "Boxes"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/order": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-order-order", 
+            "label": "Order"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "shop/product": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "shop-product-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "shop-product-details", 
+            "label": "Details"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "shop/listing": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "shop-listing-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "shop-listing-tag-bar", 
+            "label": "Tag Bar"
+        }, 
+        {
+            "id": "shop-listing-sort-bar", 
+            "label": "Sort Bar"
+        }, 
+        {
+            "id": "shop-listing-product-list", 
+            "label": "Product List"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/edit": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-edit-customer-edit-content", 
+            "label": "Customer Edit Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/password_reset": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-password-reset-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "customer-password-reset-password-reset-form", 
+            "label": "Password Reset Form"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "howitworks": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "howitworks-how-it-works", 
+            "label": "How It Works"
+        }, 
+        {
+            "id": "howitworks-steps", 
+            "label": "Steps"
+        }, 
+        {
+            "id": "howitworks-call-to-action", 
+            "label": "Call To Action"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "checkout": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "checkout-checkout", 
+            "label": "Checkout"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "subscribe_flow/variant_step": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "subscribe-flow-variant-step-progress-bar", 
+            "label": "Progress Bar"
+        }, 
+        {
+            "id": "subscribe-flow-variant-step-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "subscribe-flow-variant-step-content", 
+            "label": "Content"
+        }, 
+        {
+            "id": "subscribe-flow-variant-step-previous-boxes", 
+            "label": "Previous Boxes"
+        }, 
+        {
+            "id": "subscribe-flow-variant-step-boxes", 
+            "label": "Boxes"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "customer/forgot_password": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "customer-forgot-password-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "customer-forgot-password-forgot-password-form", 
+            "label": "Forgot Password Form"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "subscribe_flow/survey_step": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "subscribe-flow-survey-step-progress-bar", 
+            "label": "Progress Bar"
+        }, 
+        {
+            "id": "subscribe-flow-survey-step-title", 
+            "label": "Title"
+        }, 
+        {
+            "id": "subscribe-flow-survey-step-content", 
+            "label": "Content"
+        }, 
+        {
+            "id": "subscribe-flow-survey-step-previous-boxes", 
+            "label": "Previous Boxes"
+        }, 
+        {
+            "id": "subscribe-flow-survey-step-boxes", 
+            "label": "Boxes"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "create_account": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_9f2e2f64-8193-433d-bc6f-e34efb913771", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "reviews": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_f3f84e00-40f4-4bba-86b8-b3dcf968e85e", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_25b8410b-f7e0-4fa9-9ec0-d988e42030e2", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "our_difference": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_c17b4e6e-8e94-47cb-87c7-c706188d285f", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_a8bcab1a-d36b-463e-93da-0d2bd9bcb87d", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "contact_us": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_a25749f2-fe7d-4320-902a-29eabb8ff7ae", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_dd71b354-6a30-488b-a88f-1c42061dda6c", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "terms_and_conditions": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_dccd9cd4-1d60-4a37-a10c-de32b93ec016", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_e14bbdf5-db8e-4986-994a-17dc3c216c43", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "privacy_policy": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_417f49e9-1167-4284-b33c-8f7a0bc8b49a", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_b53ffbba-efa4-4b5f-8d40-44fcecbe829e", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "moneyback_guarantee": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_f81612ce-3ad1-4f79-a9f2-5f107b11bf1d", 
+            "label": "Title"
+        }, 
+        {
+            "id": "cmp_ce43946b-797a-453d-9605-f52485a8e83b", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "choose_package": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_32a04223-32c7-4d56-95d1-1d42c1bc0b4f", 
+            "label": "New Section (Rich Edit)"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ], 
+    "adjust_subscription": [
+        {
+            "id": "global-header", 
+            "label": "Header"
+        }, 
+        {
+            "id": "cmp_086287fc-98f5-4b07-839e-fd632f1d42b0", 
+            "label": "Content"
+        }, 
+        {
+            "id": "global-footer", 
+            "label": "Footer"
+        }
+    ]
+}

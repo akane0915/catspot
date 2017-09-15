@@ -1,0 +1,131 @@
+{
+    "settings": [
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/label_1"
+        }, 
+        {
+            "type": "image", 
+            "id": "howitworks-steps/image_1"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/caption_1"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/label_2"
+        }, 
+        {
+            "type": "image", 
+            "id": "howitworks-steps/image_2"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/caption_2"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/label_3"
+        }, 
+        {
+            "type": "image", 
+            "id": "howitworks-steps/image_3"
+        }, 
+        {
+            "type": "richtext", 
+            "id": "howitworks-steps/caption_3"
+        }, 
+        {
+            "type": "divider"
+        }, 
+        {
+            "type": "color", 
+            "id": "howitworks-steps/background_color", 
+            "label": "Background"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "howitworks-steps/tile_background_color", 
+            "label": "Tile Background"
+        }, 
+        {
+            "inherits": "secondary_color", 
+            "type": "color", 
+            "id": "howitworks-steps/tile_border_color", 
+            "label": "Tile Border"
+        }, 
+        {
+            "inherits": "page_heading/font_face", 
+            "type": "font_face", 
+            "id": "howitworks-steps/heading_1/font_face", 
+            "label": "Heading 1"
+        }, 
+        {
+            "inherits": "page_heading/font_size", 
+            "type": "font_size", 
+            "id": "howitworks-steps/heading_1/font_size"
+        }, 
+        {
+            "inherits": "page_heading/color", 
+            "type": "color", 
+            "id": "howitworks-steps/heading_1/color"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_face", 
+            "type": "font_face", 
+            "id": "howitworks-steps/heading_2/font_face", 
+            "label": "Heading 2"
+        }, 
+        {
+            "inherits": "page_secondary_heading/font_size", 
+            "type": "font_size", 
+            "id": "howitworks-steps/heading_2/font_size"
+        }, 
+        {
+            "inherits": "page_secondary_heading/color", 
+            "type": "color", 
+            "id": "howitworks-steps/heading_2/color"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_face", 
+            "type": "font_face", 
+            "id": "howitworks-steps/heading_3/font_face", 
+            "label": "Heading 3"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/font_size", 
+            "type": "font_size", 
+            "id": "howitworks-steps/heading_3/font_size"
+        }, 
+        {
+            "inherits": "page_tertiary_heading/color", 
+            "type": "color", 
+            "id": "howitworks-steps/heading_3/color"
+        }, 
+        {
+            "inherits": "page_body/font_face", 
+            "type": "font_face", 
+            "id": "howitworks-steps/body/font_face", 
+            "label": "Body"
+        }, 
+        {
+            "inherits": "page_body/font_size", 
+            "type": "font_size", 
+            "id": "howitworks-steps/body/font_size"
+        }, 
+        {
+            "inherits": "page_body/color", 
+            "type": "color", 
+            "id": "howitworks-steps/body/color"
+        }
+    ], 
+    "label": "Steps"
+}

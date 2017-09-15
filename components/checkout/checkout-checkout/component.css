@@ -1,0 +1,107 @@
+.checkout_content .left-col {
+	float: right;
+}
+.checkout_content h3{
+	color: rgb(117, 117, 117);
+}
+.disabled{
+	background-color: #ccc!important;
+	cursor: not-allowed;
+}
+.checkout_content section {
+  padding: 0;
+}
+#checkout-checkout .checkout_content .cta{
+	padding: 0;
+}
+
+#checkout_button{
+	display: none;
+}
+.checkoutButtonStandin{
+	display: inline-block;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgb(193, 155, 70);
+	border: none;
+	color: #FFFFFF;
+	font-family: Dosis;
+	font-size: 14px;
+	letter-spacing: 0.167em;
+	padding: 1.2em 5em;
+}
+#checkout-checkout .icon-remove-circle:before {
+	content: "Remove";
+	font-family: Dosis;
+	text-decoration: underline;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+#checkout-checkout .delete_column{
+	display: none;
+}
+#checkout-checkout .ship_to.form_holder {
+}
+
+	#checkout-checkout .disclaimerText {
+	  padding: 0 20px;
+	  font-size: .9em;
+	}
+	#checkout-checkout .disclaimerText span {
+	  font-weight: bold;
+	  font-size: 1em;
+	}
+#checkout-checkout .checkout_content {
+	overflow: auto;
+}
+
+#checkout-checkout .checkout_content section {
+	border-color: #F5F5F5;
+}
+
+#checkout-checkout .cart_listing table {
+	border-color: #F5F5F5;
+}
+#checkout_form div.cart_addresses .ship_to.form_holder section > div:nth-child(2) > div:nth-child(4){
+	display: none;
+}
+
+#checkout-checkout .register .col-md-6{
+	flex: 100%;
+}
+#checkout-checkout .ship_to .row,
+#checkout-checkout .pay_with .row{
+	max-width: 100%;
+	flex-wrap: nowrap;
+}
+#checkout-checkout .ship_to .row .col-md-9{
+	flex: 0 0 72%;
+}
+.cart_addresses {
+  max-width: 100%;
+}
+div.smarty-ui {
+	background: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.smarty-ui > div{
+	box-shadow: none;
+}
+a.smarty-choice{
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.checkout_content .left-col {
+		float: none;
+	}
+	#checkout-checkout .ship_to .row,
+	#checkout-checkout .pay_with .row{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	#checkout-checkout .ship_to .row .col-md-9{
+		flex: 0 0 100%;
+	}
+}

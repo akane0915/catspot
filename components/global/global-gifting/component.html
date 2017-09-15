@@ -1,0 +1,17 @@
+<section id="global-gifting" class="component-rich-text-with-button">
+	<div class="container-fluid">
+
+		<div class="component-rich-text-with-button__content-row row">
+			<div class="col-xs-12 text-center">
+				{{ settings["global-gifting/content"] }}
+			</div>
+		</div>
+
+		<div class="component-rich-text-with-button__button-row row">
+			<div class="col-xs-12 text-center">
+				<a type="button" class="btn btn-large btn-primary" href="{{ settings['global-gifting/button_url'] | default('#') }}">{{ settings["global-gifting/button_text"] }}</a>
+			</div>
+		</div>
+		
+	</div>
+</section>

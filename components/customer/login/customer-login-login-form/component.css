@@ -1,0 +1,10 @@
+#customer-login-login-form {
+	padding: 0 0 120px 0;
+}
+
+.catspot-login__attention {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid rgb(143, 112, 40);
+  border-radius: 6px;
+}

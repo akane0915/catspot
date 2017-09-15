@@ -1,0 +1,30 @@
+<section id="customer-login-login-form" class="component-login-form login-form">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="card col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 text-center">
+
+				<div class="card-block row">
+					<div class="col-xs-12 form-container">
+						<p> Don't have an account? <a href="/create_account">Create one now!</a></p>
+                      	<p class="catspot-login__attention"><strong>Are you a customer from before November, 1 2016?</strong> Please visit our <a href="https://legacy.catspotlitter.com/">Legacy Site</a> to manage your account information.</p>
+						<form role="form" class="cform" action="/customer/login" method="post" accept-charset="utf-8">
+							<div class="form-group">
+								<input type="email" name="email" class="form-control" id="email" placeholder="Email address" required><label for="email" class="sr-only" placeholder="Email">Email</label>
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password" required>
+								<label for="password" class="sr-only">Password</label>
+							</div>
+
+							<div class="row">
+								<a href="/customer/forgot_password" class="btn btn-link col-md-6 col-xs-12">Forgot Password?</a>
+								<button type="submit" class="btn btn-primary col-md-6 col-xs-12">LOGIN</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>

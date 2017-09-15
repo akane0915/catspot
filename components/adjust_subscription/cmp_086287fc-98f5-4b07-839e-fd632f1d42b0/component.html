@@ -1,0 +1,72 @@
+<section id="cmp_086287fc-98f5-4b07-839e-fd632f1d42b0">
+	<!-- class="component-rich-text-with-button" -->
+  {% set cart = active_cart() %}
+	<section id="subscribe-product-list" class="component-subscription-product-list">
+		<div id="choosePackage" class="container-fluid">
+			<h1>Adjust Your Subscription</h1>
+			<div class="row sf-grid catspot-product-list">
+				<div class="col-md-10 col-xl-6 col-xs-12 adjust-subscription">
+					<div class="row">
+						<div class="col-xl-4 col-xs-12 sf-grid__container adjust-subscription__description">
+							<div class="adjust-subscription__description__wrapper">
+								<h2>Current Subscription</h2>
+								<p>Your current subscription contains <span class="activeSubs">n</span> bags of premium, all-natural cat litter and costs just <span class="activeSubsPrice">n</span> per month.</p>
+								<em>Use the controls to adjust the number of bags in your subscription.</em>
+							</div>
+						</div>
+						<div class="col-xl-8 col-xs-12 sf-grid__container adjust-subscription__product">
+							<div class="adjust-subscription__product__wrapper">
+								<div class="adjust-subscription__images">
+									<img src="//s3.amazonaws.com/cratejoy_vendor_images/5a1133f08d3c402f9e07345f4ffa5fb2.png">
+								</div>
+								<!-- Product Name -->
+								<h2 class="catspot-product__name">
+									How many bags per month?
+								</h2>
+								<dl class="catspot-product__features">
+									<dt class="catspot-product__feature-title">Bags per month</dt>
+									<span class="catspot-product__incrementer catspot-product__incrementer--more"></span>
+									<dd class="catspot-product__feature-definition catspot-product__number-bags">n</dd>
+									<span class="catspot-product__incrementer catspot-product__incrementer--less"></span>
+									<dt class="catspot-product__feature-title">Monthly total</dt>
+									<dd class="catspot-product__feature-definition catspot-product__monthly-total">
+										<p data-barley="product.502048941.price" data-barley-editor="text">$n.00</p>
+									</dd>
+								</dl>
+								<p class="catspot-product__description">
+									Changes in your subscription will be reflected immediately.
+								</p>
+								<footer class="catspot-product__footer">
+									<a type="button" class="btn btn-large btn-primary catspot-product__adjust">
+										Update my Subscription
+									</a>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="testimonial" class="container-fluid">
+			Our cat likes it, no odor, and easy to clean up. We will definitely continue using it.
+			<span>- Camie and Brooklyn Jones, Customers</span>
+		</div>
+	</section>
+	<div class="hidden">
+		{{ cart.products }}
+	</div>
+</section>
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    var event = { 'event': 'checkoutOption' };
+
+	event.ecommerce = {
+    	'checkout': {
+            'actionField': {'step': 2, 'option': 'Choose Package' },
+            'products': []
+        }
+    }
+
+    window.dataLayer.push(event);
+</script>

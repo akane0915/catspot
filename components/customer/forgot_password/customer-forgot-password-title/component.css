@@ -1,0 +1,34 @@
+#customer-forgot-password-title {
+	background-color: {{ settings['customer-forgot-password-title/background_color'] }};
+}
+
+#customer-forgot-password-title h1 {
+	color: {{ settings['customer-forgot-password-title/heading_1/color'] }};
+	font-family: {{ settings['customer-forgot-password-title/heading_1/font_face'] }};
+	font-size: {{ settings['customer-forgot-password-title/heading_1/font_size'] }};
+}
+
+#customer-forgot-password-title h2 {
+	color: {{ settings['customer-forgot-password-title/heading_2/color'] }};
+	font-family: {{ settings['customer-forgot-password-title/heading_2/font_face'] }};
+	font-size: {{ settings['customer-forgot-password-title/heading_2/font_size'] }};
+}
+
+#customer-forgot-password-title h3 {
+	color: {{ settings['customer-forgot-password-title/heading_3/color'] }};
+	font-family: {{ settings['customer-forgot-password-title/heading_3/font_face'] }};
+	font-size: {{ settings['customer-forgot-password-title/heading_3/font_size'] }};
+}
+
+#customer-forgot-password-title p {
+	color: {{ settings['customer-forgot-password-title/body/color'] }};
+	font-family: {{ settings['customer-forgot-password-title/body/font_face'] }};
+	font-size: {{ settings['customer-forgot-password-title/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#customer-forgot-password-title .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}

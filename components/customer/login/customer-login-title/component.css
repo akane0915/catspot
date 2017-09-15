@@ -1,0 +1,34 @@
+#customer-login-title {
+	background-color: {{ settings['customer-login-title/background_color'] }};
+}
+
+#customer-login-title h1 {
+	color: {{ settings['customer-login-title/heading_1/color'] }};
+	font-family: {{ settings['customer-login-title/heading_1/font_face'] }};
+	font-size: {{ settings['customer-login-title/heading_1/font_size'] }};
+}
+
+#customer-login-title h2 {
+	color: {{ settings['customer-login-title/heading_2/color'] }};
+	font-family: {{ settings['customer-login-title/heading_2/font_face'] }};
+	font-size: {{ settings['customer-login-title/heading_2/font_size'] }};
+}
+
+#customer-login-title h3 {
+	color: {{ settings['customer-login-title/heading_3/color'] }};
+	font-family: {{ settings['customer-login-title/heading_3/font_face'] }};
+	font-size: {{ settings['customer-login-title/heading_3/font_size'] }};
+}
+
+#customer-login-title p {
+	color: {{ settings['customer-login-title/body/color'] }};
+	font-family: {{ settings['customer-login-title/body/font_face'] }};
+	font-size: {{ settings['customer-login-title/body/font_size'] }};
+}
+
+@media (min-width: 768px) {
+	#customer-login-title .content {
+		margin: 0 auto;
+		width: 80%;
+	}
+}

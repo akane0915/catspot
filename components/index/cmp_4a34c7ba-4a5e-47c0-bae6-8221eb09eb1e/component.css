@@ -1,0 +1,88 @@
+#cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e {
+	padding: 0;
+}
+
+#cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e .container-fluid{
+	padding: 0;
+}
+#cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e .content {
+  	margin-bottom: 10%;
+    height: 375px;
+    background-color: #301E12;
+    background: -webkit-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, rgba(184,122,72,1),rgba(149,99,58,1),rgba(71,46,27,1)); /* Standard syntax (must be last) */
+    max-width: 100%;
+    width: 100%;
+    padding: 2em 1% 2em 1%;
+}
+#cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e .text-center {
+  	padding-top: 1.5%;
+}
+
+
+
+.catApproved {
+  	width: 100%;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 1em;
+  	padding-bottom: 1em;
+}
+
+
+
+
+
+.catApproved p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.testimonal img {
+  text-align: center;
+}
+
+.orbit {
+  margin-bottom: 20px;
+}
+
+
+
+#carousel-dots {
+  position: relative;
+  text-align: center;
+}
+
+@media(min-width: 722px) and (max-width: 767px) {
+   .testimonial {
+    height: 385px;
+  }
+}
+
+
+@media(min-width: 768px) {
+  .testimonial {
+    height: 300px;
+  }
+}
+
+@media(min-width: 1250px) {
+  .testimonial {
+    height: 345px;
+  }
+}
+
+@media(max-width: 570px) {
+  .orbit {
+ 	 overflow: hidden;
+	}
+}
+
+
+
+
+  

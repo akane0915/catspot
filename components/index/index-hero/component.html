@@ -1,0 +1,35 @@
+<section id="index-hero" class="component-hero-banner row">
+
+	<div class="hero__top">
+       
+		<div class="hero__top__intro-copy">
+          <div class="container">
+            <div class="row container">
+				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 hero__top__intro-copy__left sf-grid__container">
+					<div class="hero__top__intro-copy__text_wrapper">
+						<h1 class="hero__top__intro-copy__header">Litter as Mother Nature Intended</h1>
+						<p class="hero__top__intro-copy__subheader">Our litter is made with one simple ingredient: coconut!  And that's it.  No harmful allergens or chemicals for your feline friend here.  CatSpot is a 100% all-natural product that's both odor-eliminating and hypoallergenic.  And it's manufactured right here in America!</p>
+						<a class="hero__top__intro-copy__cta btn-primary" href="/create_account">
+							<p class="hero__top__intro-copy__buy__text">Buy Now</p>
+							<p class="hero__top__intro-copy__price">$15/bag</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 text-center fitVidsWrapper hero__top__intro-copy__right sf-grid__container">
+					<div class="hero__top__intro-copy__video__wrapper">
+						<div class="hero__top__intro-copy__video">
+							{{ settings["videoSection/video_src2"] | video_tag }}
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="floating-coconuts-wrapper">
+			<div class="floating-coconuts">
+				<img class="hero__top__intro-copy__coconuts__image" src="{{ '/images/coconuts.png' | asset_url }}" alt="Coconuts Image">
+			</div>
+          </div>
+		</div>
+	</div>
+</section>

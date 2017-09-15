@@ -1,0 +1,124 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
+
+<script src="{{ 'js/slick/slick.min.js' | asset_url }}"></script>
+
+<script>  
+  var $jq = jQuery.noConflict();
+  $jq(document).ready(function() {
+    $jq('.orbit').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    adaptiveHeight: true,
+    appendDots: $('#carousel-dots'),
+      responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+        adaptiveHeight: true
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+        adaptiveHeight: true
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        adaptiveHeight: true
+      }
+    }
+    ]
+  });
+    
+ })
+  
+</script>
+
+<section id="cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e" class="component-rich-text-center testimonial-block">
+  <div class="container-fluid">
+    <div class="content">
+
+      <div class="catApproved" id="testimonial-section">
+        <p>Cat <strong>Approved.</strong> Cat Parent <strong>Loved.</strong></p>
+      </div>
+
+      <div class="orbit container">
+		
+        <div class="testimonial">
+          <img src="{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/image1"] | asset_url }}" />
+          <div class="bottom-align-text">
+            <p>
+              {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/quote1"] }}
+            </p>
+            <span>
+              <strong>{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/name1"] }}</strong>
+              {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/title1"] }}
+            </span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <img src="{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/image2"] | asset_url }}" />
+          <div class="bottom-align-text">
+             <p>
+            {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/quote2"] }}
+          </p>
+          <span>
+            <strong>{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/name2"] }}</strong>
+            {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/title2"] }}
+          </span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <img src="{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/image3"] | asset_url }}" />
+          <div class="bottom-align-text">
+              <p>
+            {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/quote3"] }}
+          </p>
+          <span>
+            <strong>{{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/name3"] }}</strong>
+            {{ settings["cmp_4a34c7ba-4a5e-47c0-bae6-8221eb09eb1e/title3"] }}
+          </span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <img src="{{ 'images/WillyWilliams.jpg' | asset_url }}">
+          <div class="bottom-align-text">
+              <p>"It isn’t expensive, it’s easy on my cats’ paws, no chemicals, and it controls odor. CatSpot Litter will change the cat litter industry. Watch and see!"</p>
+          <span><strong>Willy Williams</strong>Customer</span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <img src="{{ 'images/RabbitGirl.jpg' | asset_url }}">
+          <div class="bottom-align-text">
+            <p>"I really like it. It doesn’t have big clumps like the other litters I have used and therefore not as much waste."</p>
+          <span><strong>Shelby Witherow</strong>Customer</span>
+        </div>
+          </div>
+      </div>
+      <div id="carousel-dots"></div>
+
+    </div>
+  </div>
+</section>
+
+
